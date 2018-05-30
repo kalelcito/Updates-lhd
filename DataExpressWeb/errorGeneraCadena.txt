@@ -1,0 +1,18 @@
+System.IO.FileNotFoundException: No se pudo encontrar el archivo 'H:\ReceDHL\recepDHL\DataExpressWeb\xslt\cadenaoriginal_3_3.xslt'.
+Nombre de archivo: 'H:\ReceDHL\recepDHL\DataExpressWeb\xslt\cadenaoriginal_3_3.xslt'
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   en System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   en System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   en System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   en System.Threading.CompressedStack.runTryCode(Object userData)
+   en System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   en System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   en System.Xml.XmlTextReaderImpl.OpenUrl()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   en System.Xml.XPath.XPathDocument..ctor(XmlReader reader, XmlSpace space)
+   en System.Xml.Xsl.XsltOld.Compiler.LoadDocument(XmlTextReaderImpl reader)
+   en System.Xml.Xsl.XslTransform.Load(String url)
+   en ValSign.Validacion.generaCadena(String plantilla, XmlDocument xmlDoc) en H:\ReceDHL\recepDHL\validacion\Validacion.cs:línea 59

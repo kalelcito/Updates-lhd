@@ -1,0 +1,6 @@
+G:\ReceDHL\recepDHL\VaidarCFDI\bin\Debug\VaidarCFDI.exe.config
+G:\ReceDHL\recepDHL\VaidarCFDI\bin\Debug\VaidarCFDI.exe
+G:\ReceDHL\recepDHL\VaidarCFDI\bin\Debug\VaidarCFDI.pdb
+G:\ReceDHL\recepDHL\VaidarCFDI\obj\x86\Debug\VaidarCFDI.csprojResolveAssemblyReference.cache
+G:\ReceDHL\recepDHL\VaidarCFDI\obj\x86\Debug\VaidarCFDI.exe
+G:\ReceDHL\recepDHL\VaidarCFDI\obj\x86\Debug\VaidarCFDI.pdb

@@ -1,0 +1,6 @@
+Datos.BaseDatosException: La conexión ya se encuentra abierta.
+   en Datos.BasesDatos.Conectar() en H:\ReceDHL\recepDHL\Datos\BasesDatos.cs:línea 91
+   en Control.Facturas.validar_domicilioReceptor(String rfc) en H:\ReceDHL\recepDHL\Control\Facturas.cs:línea 3085
+   en Control.Facturas.leerXML(String file) en H:\ReceDHL\recepDHL\Control\Facturas.cs:línea 2028Adi:
+Recepcion: 
+RE002: Sello del Emisor Invalido. Favor de verificar que el documento a subir sea el timbrado ante el SAT

@@ -1,0 +1,168 @@
+D:\server\DataExpress\DataExpress\Sello\bin\Debug\Sello.dll
+D:\server\DataExpress\DataExpress\Sello\bin\Debug\Sello.pdb
+D:\server\DataExpress\DataExpress\Sello\bin\Debug\Sello.xml
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\Sello.dll
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\Sello.xml
+D:\server\DataExpress\DataExpress\Sello\obj\x86\Debug\Sello.pdb
+D:\server\DataExpress\MultiDataExpress\Sello\bin\Debug\Sello.dll
+D:\server\DataExpress\MultiDataExpress\Sello\bin\Debug\Sello.pdb
+D:\server\DataExpress\MultiDataExpress\Sello\bin\Debug\Sello.xml
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\Sello.dll
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\Sello.xml
+D:\server\DataExpress\MultiDataExpress\Sello\obj\x86\Debug\Sello.pdb
+D:\server\DE\Sello\bin\Debug\Sello.dll
+D:\server\DE\Sello\bin\Debug\Sello.pdb
+D:\server\DE\Sello\bin\Debug\Sello.xml
+D:\server\DE\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\DE\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\DE\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\DE\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\DE\Sello\obj\x86\Debug\Sello.dll
+D:\server\DE\Sello\obj\x86\Debug\Sello.xml
+D:\server\DE\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataJuan\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataJuan\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataJuan\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataJuan\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataRacel\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataRacel\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataRacel\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataRacel\Sello\obj\x86\Debug\Sello.pdb
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\bin\Debug\Sello.dll
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\bin\Debug\Sello.pdb
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\bin\Debug\Sello.xml
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\Sello.dll
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\Sello.xml
+D:\DataExpress\RACEL\DataRace l v2.0\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataSchindler\DataSchindler\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataSchindlerWebUnific\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\Symrise\DataSymriseWebUnific\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.pdb
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.dll
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.pdb
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Debug\Sello.xml
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.dll
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.xml
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Debug\Sello.pdb
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Debug\Sello.dll
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Debug\Sello.pdb
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Debug\Sello.xml
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.dll
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.xml
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.pdb
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\bin\Debug\Sello.dll
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\bin\Debug\Sello.pdb
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\bin\Debug\Sello.xml
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.dll
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.xml
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\DataBDIWeb\Sello\obj\x86\Debug\Sello.pdb
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\bin\Debug\Sello.dll
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\bin\Debug\Sello.pdb
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\bin\Debug\Sello.xml
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.dll
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.xml
+D:\server\Recepcion Facturacion\saltilllo\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.pdb
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\bin\Debug\Sello.dll
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\bin\Debug\Sello.pdb
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\bin\Debug\Sello.xml
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.Resources.resources
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.dll
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.xml
+D:\server\Impulsora\recepcion\Version 1.0\DataRecepcionWeb\Sello\obj\x86\Debug\Sello.pdb
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\bin\Debug\Sello.dll
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\bin\Debug\Sello.pdb
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\bin\Debug\Sello.xml
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.Resources.resources
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.vbproj.GenerateResource.Cache
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.dll
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.xml
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.pdb
+E:\Documentos\Data Express\local\DataRecepcion-DHL-SAT_2016\Sello\obj\x86\Debug\Sello.vbprojResolveAssemblyReference.cache
+G:\ReceDHL\recepDHL\Sello\bin\Debug\Sello.dll
+G:\ReceDHL\recepDHL\Sello\bin\Debug\Sello.pdb
+G:\ReceDHL\recepDHL\Sello\bin\Debug\Sello.xml
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.vbprojResolveAssemblyReference.cache
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.Resources.resources
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.vbproj.GenerateResource.Cache
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.dll
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.xml
+G:\ReceDHL\recepDHL\Sello\obj\x86\Debug\Sello.pdb

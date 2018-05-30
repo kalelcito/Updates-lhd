@@ -1,0 +1,1629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5260D9BC-B3D6-43B3-9F09-218BBF075745}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataExpressWeb</RootNamespace>
+    <AssemblyName>DataExpressWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=17.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin">
+      <HintPath>..\..\..\..\..\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.76.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.76.0\lib\net40-client\ClosedXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="diCrSysPKINet, Version=3.6.0.21746, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\diCrSysPKINet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="adminstracion\usuarios\agregar_usuario.aspx" />
+    <Content Include="adminstracion\usuarios\clientes.aspx" />
+    <Content Include="adminstracion\usuarios\eliminar_usuario.aspx" />
+    <Content Include="adminstracion\usuarios\empleados.aspx" />
+    <Content Include="adminstracion\usuarios\modificar_usuario.aspx" />
+    <Content Include="adminstracion\roles\crear_rol.aspx" />
+    <Content Include="adminstracion\roles\eliminarRol.aspx" />
+    <Content Include="adminstracion\roles\modificar_roles.aspx" />
+    <Content Include="adminstracion\roles\roles.aspx" />
+    <Content Include="adminstracion\sesiones\crear_sesion.aspx" />
+    <Content Include="adminstracion\sesiones\eliminarSesion.aspx" />
+    <Content Include="adminstracion\sesiones\modificar_sesion.aspx" />
+    <Content Include="adminstracion\sesiones\sesiones.aspx" />
+    <Content Include="adminstracion\sucursales\agregarSucursal.aspx" />
+    <Content Include="adminstracion\sucursales\eliminarSucursal.aspx" />
+    <Content Include="adminstracion\sucursales\modificarSucursal.aspx" />
+    <Content Include="adminstracion\sucursales\sucursales.aspx" />
+    <Content Include="configuracion\addProveedores.aspx" />
+    <Content Include="configuracion\email\modReglas.aspx" />
+    <Content Include="configuracion\email\reglas.aspx" />
+    <Content Include="configuracion\email\addReglas.aspx" />
+    <Content Include="configuracion\email\servermail.aspx" />
+    <Content Include="configuracion\Proveedores.aspx" />
+    <Content Include="Content\AjaxControlToolkit\Images\AsyncFileUpload.Button.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\BalloonPopup.CloudSprite.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\BalloonPopup.CloudSprite.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\BalloonPopup.RectangleSprite.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\BalloonPopup.RectangleSprite.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Calendar.Arrow-Left.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Calendar.Arrow-Right.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\ComboBox.Arrow-Down.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\DropDown.DropArrow.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Gravatar.Anonymous.jpg" />
+    <Content Include="Content\AjaxControlToolkit\Images\Gravatar.G.jpg" />
+    <Content Include="Content\AjaxControlToolkit\Images\Gravatar.PG.jpg" />
+    <Content Include="Content\AjaxControlToolkit\Images\Gravatar.R.jpg" />
+    <Content Include="Content\AjaxControlToolkit\Images\Gravatar.X.jpg" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.BgiButton.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-1x1.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignCenter-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignCenter-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignJustify-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignJustify-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignLeft-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignLeft-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignRemove-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignRemove-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignRight-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-AlignRight-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Anchor.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-BackColor-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-BackColor-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorBgClear-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorBgClear-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorFg-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorFg-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorFgClear-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ColorFgClear-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Copy-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Copy-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Cut-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Cut-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Design-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Design-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Flash.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ForeColor-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ForeColor-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatBold-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatBold-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatItalic-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatItalic-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatLtr-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatLtr-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatParagraph-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatParagraph-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatRtl-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatRtl-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatStrike-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatStrike-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatSub-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatSub-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatSup-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatSup-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatUnderline-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-FormatUnderline-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Html-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Html-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-IndentLess-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-IndentLess-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-IndentMore-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-IndentMore-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Link-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Link-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ListBullet-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ListBullet-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ListNum-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-ListNum-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Media.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Paste-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Paste-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-PasteText-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-PasteText-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-PasteWord-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-PasteWord-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Placeholder.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Preview-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Preview-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Redo-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Redo-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Rule-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Rule-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Selector-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Selector-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Separator.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Undo-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Undo-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Unformat-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Unformat-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Unlink-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditor.Ed-Unlink-Inactive.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\HtmlEditorExtender.Buttons.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.Handle-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.Handle-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.HandleDown-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.HandleDown-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.HandleHover-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.HandleHover-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.Rail-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.Rail-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.RailOuter-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\MultiHandleSlider.RailOuter-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Fullscreen-Grouphover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Fullscreen-Hover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Fullscreen-Pressed.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Fullscreen-Rest.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Home-Grouphover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Home-Hover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Home-Pressed.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.Home-Rest.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomIn-Grouphover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomIn-Hover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomIn-Pressed.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomIn-Rest.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomOut-Grouphover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomOut-Hover.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomOut-Pressed.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Seadragon.ZoomOut-Rest.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Slider.Handle-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Slider.Handle-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Slider.Rail-Horizontal.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Slider.Rail-Vertical.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Active-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Active-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveLeft-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveLeft-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveRight-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveRight-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.ActiveRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Background.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-Active.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-ActiveLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-ActiveRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-Hover.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-HoverLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-HoverRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-Left.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom-Right.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Bottom.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Hover-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Hover-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Hover.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverLeft-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverLeft-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverRight-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverRight-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.HoverRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Left-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Left-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Left.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Line.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Right-VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Right-VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.Right.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.VerticalLeft.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Tabs.VerticalRight.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\Twitter.24.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\Twitter.32.png" />
+    <Content Include="Content\AjaxControlToolkit\Images\ValidatorCallout.Alert-Large.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\ValidatorCallout.Alert-Small.gif" />
+    <Content Include="Content\AjaxControlToolkit\Images\ValidatorCallout.Close.gif" />
+    <Content Include="Content\AjaxControlToolkit\Styles\AjaxFileUpload.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\AjaxFileUpload.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\AreaChart.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\AreaChart.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Backgrounds.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Backgrounds.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BalloonPopup.Cloud.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BalloonPopup.Cloud.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BalloonPopup.Rectangle.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BalloonPopup.Rectangle.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BarChart.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BarChart.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BubbleChart.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\BubbleChart.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Calendar.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Calendar.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ColorPicker.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ColorPicker.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ComboBox.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ComboBox.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\DropDown.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\DropDown.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.DesignPanel.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.DesignPanel.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Document.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Document.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Editor.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Editor.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.HtmlPanel.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.HtmlPanel.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Popups.AttachedTemplatePopup.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditor.Popups.AttachedTemplatePopup.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditorExtender.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\HtmlEditorExtender.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\LineChart.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\LineChart.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\MultiHandleSlider.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\MultiHandleSlider.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\NumericUpDown.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\NumericUpDown.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\PieChart.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\PieChart.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Slider.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Slider.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\SlideShow.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\SlideShow.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Tabs.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Tabs.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Twitter.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\Twitter.min.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ValidatorCallout.css" />
+    <Content Include="Content\AjaxControlToolkit\Styles\ValidatorCallout.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Gridmvc.css" />
+    <Content Include="enviar.aspx" />
+    <Content Include="Autorizar.aspx" />
+    <Content Include="Autorizar2.aspx" />
+    <Content Include="agregarProveedor.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Imagenes-dhl\adv.png" />
+    <Content Include="Imagenes-dhl\adve.png" />
+    <Content Include="Imagenes-dhl\barritas.gif" />
+    <Content Include="imagenes\arrow.png" />
+    <Content Include="menuReceDHL\interfazOracle.aspx" />
+    <Content Include="menuReceDHL\subirDelSAT.aspx" />
+    <Content Include="notificacionElim.aspx" />
+    <Content Include="nuevo\autoRazon.asmx" />
+    <Content Include="nuevo\autoRec.asmx" />
+    <Content Include="nuevo\retencionManual.aspx" />
+    <Content Include="Privacidad.aspx" />
+    <Content Include="menuReceDHL\adminCat.aspx" />
+    <Content Include="menuReceDHL\ComprobantesOTM.aspx" />
+    <Content Include="menuReceDHL\AdminMensaje.aspx" />
+    <Content Include="menuReceDHL\perfilEmple.aspx" />
+    <Content Include="menuReceDHL\perfilProv.aspx" />
+    <Content Include="Imagenes-dhl\TXT.png" />
+    <Content Include="menuReceDHL\inicio.aspx" />
+    <Content Include="menuReceDHL\mensajePortal.aspx" />
+    <Content Include="menuReceDHL\reportesDHL.aspx" />
+    <Content Include="menuReceDHL\tiposProveedor.aspx" />
+    <Content Include="menuReceDHL\monedas.aspx" />
+    <Content Include="menuReceDHL\diasOperacion.aspx" />
+    <Content Include="menuReceDHL\codigosIVA.aspx" />
+    <Content Include="menuReceDHL\receptoresCfdi.aspx" />
+    <Content Include="menuReceDHL\solicitudes.aspx" />
+    <Content Include="menuReceDHL\proveedoresDhl.aspx" />
+    <Content Include="menuReceDHL\GruposUsuarios.aspx" />
+    <Content Include="menuReceDHL\UsuariosDhl.aspx" />
+    <Content Include="menuReceDHL\interfazArc.aspx" />
+    <Content Include="menuReceDHL\menuSec.aspx" />
+    <Content Include="menuReceDHL\ComprobantesFiscales.aspx" />
+    <Content Include="MenuNuevo.aspx" />
+    <Content Include="menuAdmin.aspx" />
+    <Content Include="Imagenes-dhl\manu.PNG" />
+    <Content Include="Imagenes-dhl\nuePro.PNG" />
+    <Content Include="Imagenes-dhl\olcon.PNG" />
+    <Content Include="Imagenes-dhl\paloma.png" />
+    <Content Include="Imagenes-dhl\tache.png" />
+    <Content Include="Imagenes-dhl\warning.png" />
+    <Content Include="notificacion.aspx" />
+    <Content Include="Imagenes-dhl\barra.PNG" />
+    <Content Include="RegistrosXLS.aspx" />
+    <Content Include="RenovarContra.aspx" />
+    <Content Include="Imagenes-dhl\D1.PNG" />
+    <Content Include="Imagenes-dhl\D2.PNG" />
+    <Content Include="Imagenes-dhl\D3.PNG" />
+    <Content Include="Imagenes-dhl\D4.PNG" />
+    <Content Include="Imagenes-dhl\D5.PNG" />
+    <Content Include="imagenes\4.PNG" />
+    <Content Include="imagenes\1.PNG" />
+    <Content Include="OlvideContra.aspx" />
+    <Content Include="Imagenes-dhl\candadoPNG.png" />
+    <Content Include="Imagenes-dhl\logp-dhl.jpg" />
+    <Content Include="Imagenes-dhl\pdf1.PNG" />
+    <Content Include="Imagenes-dhl\pdf2.PNG" />
+    <Content Include="imagenes\herbalife.png" />
+    <Content Include="menuVal.aspx" />
+    <Content Include="imagenes\adv.png" />
+    <Content Include="imagenes\hl.jpg" />
+    <Content Include="imagenes\hl.png" />
+    <Content Include="imagenes\logo.jpg" />
+    <Content Include="reportes\reporteSucursalesA.aspx" />
+    <Content Include="ResultadoVal.aspx" />
+    <Content Include="configuracion\log\logError.aspx" />
+    <Content Include="configuracion\Mostrar.aspx" />
+    <Content Include="construccion.aspx" />
+    <Content Include="DocumentosInvalidos.aspx" />
+    <Content Include="cuenta\Registro.aspx" />
+    <Content Include="cuenta\Olvido.aspx" />
+    <Content Include="Documentos.aspx" />
+    <Content Include="download.aspx" />
+    <Content Include="cuenta\Login.aspx" />
+    <Content Include="Cerrar.aspx" />
+    <Content Include="datosAdicionales.aspx" />
+    <Content Include="configuracion\log\enviar.aspx" />
+    <Content Include="enviarInv.aspx" />
+    <Content Include="imagenes\info.ico" />
+    <Content Include="imagenes\mail.png" />
+    <Content Include="imagenes\ok-small.png" />
+    <Content Include="imagenes\x_small.png" />
+    <Content Include="manual\GlosarioErrores.aspx" />
+    <Content Include="Properties\DataSources\System.Xml.Linq.XElement.datasource" />
+    <Content Include="Properties\DataSources\Control.ConsultaCFDIService.Acuse.datasource" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Grid.mvc.readme" />
+    <Content Include="Grid.Mvc.Ajax.readme" />
+    <None Include="Properties\PublishProfiles\DHL.pubxml" />
+    <None Include="Properties\PublishProfiles\web.pubxml" />
+    <None Include="Service References\RecepcionSAT\RecepcionSAT.disco" />
+    <None Include="Service References\RecepcionSAT\configuration91.svcinfo" />
+    <None Include="Service References\RecepcionSAT\configuration.svcinfo" />
+    <None Include="Service References\RecepcionSAT\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Accordion.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AjaxFileUpload.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AlwaysVisibleControl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Animation.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AnimationScripts.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AreaChart.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AsyncFileUpload.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\AutoComplete.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\BalloonPopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\BarChart.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\BaseScripts.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\BubbleChart.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Calendar.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\CascadingDropDown.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\CollapsiblePanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ColorPicker.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ComboBox.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Common.DateTime.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Common.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Common.Threading.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Compat.DragDrop.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Compat.Timer.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ComponentSet.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ConfirmButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\DraggableListItem.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\DropDown.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\DropShadow.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\DropWatcher.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\DynamicPopulate.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\FilteredTextBox.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\FloatingBehavior.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Hover.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HoverMenu.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.DesignPanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.DesignPanelEventHandler.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Editor.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.EditPanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Enums.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Events.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ExecCommandEmulation.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.HtmlEditor.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.HtmlPanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ModePanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.AttachedPopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.AttachedTemplatePopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.BaseColorsPopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.LinkProperties.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.OkCancelAttachedTemplatePopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.Popup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.PopupBGIButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.PopupBoxButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Popups.PopupCommonButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.PreviewPanel.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.Toolbar.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.BackColorClear.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.BackColorSelector.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Bold.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.BoxButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.BulletedList.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ColorButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ColorSelector.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.CommonButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Copy.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Cut.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DecreaseIndent.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DesignMode.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DesignModeBoxButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DesignModeImageButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DesignModePopupImageButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.DesignModeSelectButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.EditorToggleButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.FixedBackColor.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.FixedColorButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.FixedForeColor.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.FontName.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.FontSize.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ForeColor.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ForeColorClear.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ForeColorSelector.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.HorizontalSeparator.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.HtmlMode.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ImageButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.IncreaseIndent.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.InsertHR.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.InsertLink.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Italic.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.JustifyCenter.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.JustifyFull.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.JustifyLeft.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.JustifyRight.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Ltr.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.MethodButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.ModeButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.OkCancelPopupButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.OrderedList.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Paragraph.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Paste.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.PasteText.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.PasteWord.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.PreviewMode.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Redo.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.RemoveAlignment.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.RemoveLink.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.RemoveStyles.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Rtl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.SelectButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Selector.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.StrikeThrough.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.SubScript.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.SuperScript.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Underline.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditor.ToolbarButtons.Undo.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\HtmlEditorExtender.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\LineChart.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ListSearch.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.ar.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.cs.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.de.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.es.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.fr.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.he.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.hi.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.it.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.ja.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.ko.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.nl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.pl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.pt.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.ru.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.tr.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.zh-CHS.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Localization.Resources.zh-CHT.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\MaskedEdit.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\MaskedEditValidator.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ModalPopup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\MultiHandleSlider.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\MutuallyExclusiveCheckBox.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\NoBot.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\NumericUpDown.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\PagingBulletedList.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\PasswordStrength.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\PieChart.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Popup.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\PopupControl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Rating.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ResizableControl.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\RoundedCorners.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Seadragon.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Slider.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\SlideShow.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\Tabs.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\TextBoxWatermark.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ToggleButton.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\UpdatePanelAnimation.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Debug\ValidatorCallout.debug.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Accordion.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AjaxFileUpload.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AlwaysVisibleControl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Animation.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AnimationScripts.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AreaChart.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AsyncFileUpload.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\AutoComplete.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\BalloonPopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\BarChart.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\BaseScripts.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\BubbleChart.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Calendar.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\CascadingDropDown.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\CollapsiblePanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ColorPicker.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ComboBox.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Common.DateTime.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Common.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Common.Threading.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Compat.DragDrop.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Compat.Timer.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ComponentSet.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ConfirmButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\DraggableListItem.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\DropDown.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\DropShadow.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\DropWatcher.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\DynamicPopulate.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\FilteredTextBox.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\FloatingBehavior.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Hover.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HoverMenu.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.DesignPanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.DesignPanelEventHandler.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Editor.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.EditPanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Enums.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Events.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ExecCommandEmulation.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.HtmlEditor.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.HtmlPanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ModePanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.AttachedPopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.AttachedTemplatePopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.BaseColorsPopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.LinkProperties.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.OkCancelAttachedTemplatePopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.Popup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.PopupBGIButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.PopupBoxButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Popups.PopupCommonButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.PreviewPanel.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.Toolbar.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.BackColorClear.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.BackColorSelector.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Bold.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.BoxButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.BulletedList.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ColorButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ColorSelector.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.CommonButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Copy.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Cut.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DecreaseIndent.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DesignMode.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DesignModeBoxButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DesignModeImageButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DesignModePopupImageButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.DesignModeSelectButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.EditorToggleButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.FixedBackColor.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.FixedColorButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.FixedForeColor.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.FontName.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.FontSize.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ForeColor.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ForeColorClear.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ForeColorSelector.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.HorizontalSeparator.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.HtmlMode.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ImageButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.IncreaseIndent.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.InsertHR.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.InsertLink.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Italic.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.JustifyCenter.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.JustifyFull.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.JustifyLeft.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.JustifyRight.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Ltr.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.MethodButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.ModeButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.OkCancelPopupButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.OrderedList.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Paragraph.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Paste.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.PasteText.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.PasteWord.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.PreviewMode.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Redo.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.RemoveAlignment.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.RemoveLink.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.RemoveStyles.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Rtl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.SelectButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Selector.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.StrikeThrough.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.SubScript.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.SuperScript.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Underline.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditor.ToolbarButtons.Undo.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\HtmlEditorExtender.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\LineChart.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ListSearch.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.ar.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.cs.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.de.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.es.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.fr.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.he.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.hi.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.it.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.ja.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.ko.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.nl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.pl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.pt.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.ru.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.tr.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.zh-CHS.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Localization.Resources.zh-CHT.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\MaskedEdit.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\MaskedEditValidator.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ModalPopup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\MultiHandleSlider.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\MutuallyExclusiveCheckBox.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\NoBot.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\NumericUpDown.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\PagingBulletedList.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\PasswordStrength.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\PieChart.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Popup.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\PopupControl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Rating.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ResizableControl.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\RoundedCorners.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Seadragon.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Slider.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\SlideShow.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\Tabs.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\TextBoxWatermark.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ToggleButton.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\UpdatePanelAnimation.js" />
+    <Content Include="Scripts\AjaxControlToolkit\Release\ValidatorCallout.js" />
+    <Content Include="Scripts\gridmvc-ext.js" />
+    <Content Include="Scripts\gridmvc.js" />
+    <Content Include="Scripts\gridmvc.lang.fr.js" />
+    <Content Include="Scripts\gridmvc.lang.pt.js" />
+    <Content Include="Scripts\gridmvc.lang.ru.js" />
+    <Content Include="Scripts\gridmvc.min.js" />
+    <Content Include="Scripts\URI.js" />
+    <Content Include="Soporte.aspx" />
+    <Content Include="StylesEx.css" />
+    <Content Include="subirXLS.aspx" />
+    <Content Include="UserControl\filesUpload.ascx" />
+    <Content Include="UserControl\multiFileUpload.ascx" />
+    <Content Include="Validar.aspx" />
+    <Content Include="imagenes\bg_home4_01.jpg" />
+    <Content Include="imagenes\edit_delete.png" />
+    <Content Include="imagenes\estado0.jpg" />
+    <Content Include="imagenes\estado1.jpg" />
+    <Content Include="imagenes\excel.png" />
+    <Content Include="imagenes\excel24x24.png" />
+    <Content Include="imagenes\excel32x32.png" />
+    <Content Include="imagenes\folder_new.png" />
+    <Content Include="imagenes\modify.png" />
+    <Content Include="imagenes\pdf.png" />
+    <Content Include="imagenes\pdf32x32.png" />
+    <Content Include="imagenes\xml.gif" />
+    <Content Include="imagenes\pdf.gif" />
+    <Content Include="imagenes\xml.png" />
+    <Content Include="imagenes\xml32x32.png" />
+    <Content Include="imagenes\zip3.png" />
+    <Content Include="imagenes\zip32x32.png" />
+    <Content Include="imagenes\construccion.png" />
+    <Content Include="newdoc.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="validarFacturas.aspx" />
+    <Content Include="Views\Shared\_GridPager.cshtml" />
+    <Content Include="Views\Shared\_Grid.cshtml" />
+    <Content Include="Views\Shared\_AjaxGridPager.cshtml" />
+    <None Include="Web References\GInterComp\GInterfazComplemento.wsdl" />
+    <Content Include="Web References\GInterComp\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebServiceInterfaz\GenerarInterfaz.disco" />
+    <None Include="Web References\WebServiceReport\GenerarReporte.disco" />
+    <None Include="Web References\GInterComp\GInterfazComplemento.disco" />
+    <Content Include="Web References\wsRetenciones\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\wsRetenciones\Retenciones.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="ws\recepcion.asmx" />
+    <Content Include="ws\RecepcionSAT.asmx" />
+    <Content Include="ws\Retenciones.asmx" />
+    <Content Include="xslt\cadenaoriginal_2_0.xslt" />
+    <Content Include="xslt\cadenaoriginal_2_2.xslt" />
+    <Content Include="xslt\cadenaoriginal_3_2.xslt" />
+    <Content Include="xslt\cadenaoriginal_TFD_1_0.xslt" />
+    <None Include="Web References\WebServiceInterfaz\GenerarInterfaz.wsdl" />
+    <Content Include="Web References\WebServiceInterfaz\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebServiceReport\GenerarReporte.wsdl" />
+    <None Include="Web References\WebServiceReport\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\wsRetenciones\Retenciones.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\agregar_usuario.aspx.cs">
+      <DependentUpon>agregar_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\agregar_usuario.aspx.designer.cs">
+      <DependentUpon>agregar_usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\clientes.aspx.cs">
+      <DependentUpon>clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\clientes.aspx.designer.cs">
+      <DependentUpon>clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\eliminar_usuario.aspx.cs">
+      <DependentUpon>eliminar_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\eliminar_usuario.aspx.designer.cs">
+      <DependentUpon>eliminar_usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\empleados.aspx.cs">
+      <DependentUpon>empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\empleados.aspx.designer.cs">
+      <DependentUpon>empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\modificar_usuario.aspx.cs">
+      <DependentUpon>modificar_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\usuarios\modificar_usuario.aspx.designer.cs">
+      <DependentUpon>modificar_usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\roles\crear_rol.aspx.cs">
+      <DependentUpon>crear_rol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\roles\crear_rol.aspx.designer.cs">
+      <DependentUpon>crear_rol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\roles\eliminarRol.aspx.cs">
+      <DependentUpon>eliminarRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\roles\eliminarRol.aspx.designer.cs">
+      <DependentUpon>eliminarRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\roles\modificar_roles.aspx.cs">
+      <DependentUpon>modificar_roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\roles\modificar_roles.aspx.designer.cs">
+      <DependentUpon>modificar_roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\roles\roles.aspx.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\roles\roles.aspx.designer.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\crear_sesion.aspx.cs">
+      <DependentUpon>crear_sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\crear_sesion.aspx.designer.cs">
+      <DependentUpon>crear_sesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\eliminarSesion.aspx.cs">
+      <DependentUpon>eliminarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\eliminarSesion.aspx.designer.cs">
+      <DependentUpon>eliminarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\modificar_sesion.aspx.cs">
+      <DependentUpon>modificar_sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\modificar_sesion.aspx.designer.cs">
+      <DependentUpon>modificar_sesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\sesiones.aspx.cs">
+      <DependentUpon>sesiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sesiones\sesiones.aspx.designer.cs">
+      <DependentUpon>sesiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\agregarSucursal.aspx.cs">
+      <DependentUpon>agregarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\agregarSucursal.aspx.designer.cs">
+      <DependentUpon>agregarSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\eliminarSucursal.aspx.cs">
+      <DependentUpon>eliminarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\eliminarSucursal.aspx.designer.cs">
+      <DependentUpon>eliminarSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\modificarSucursal.aspx.cs">
+      <DependentUpon>modificarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\modificarSucursal.aspx.designer.cs">
+      <DependentUpon>modificarSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\sucursales.aspx.cs">
+      <DependentUpon>sucursales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstracion\sucursales\sucursales.aspx.designer.cs">
+      <DependentUpon>sucursales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\addProveedores.aspx.cs">
+      <DependentUpon>addProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\addProveedores.aspx.designer.cs">
+      <DependentUpon>addProveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\email\modReglas.aspx.cs">
+      <DependentUpon>modReglas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\email\modReglas.aspx.designer.cs">
+      <DependentUpon>modReglas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\email\reglas.aspx.cs">
+      <DependentUpon>reglas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\email\reglas.aspx.designer.cs">
+      <DependentUpon>reglas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\email\addReglas.aspx.cs">
+      <DependentUpon>addReglas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\email\addReglas.aspx.designer.cs">
+      <DependentUpon>addReglas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\email\servermail.aspx.cs">
+      <DependentUpon>servermail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\email\servermail.aspx.designer.cs">
+      <DependentUpon>servermail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\Proveedores.aspx.cs">
+      <DependentUpon>Proveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\Proveedores.aspx.designer.cs">
+      <DependentUpon>Proveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enviar.aspx.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enviar.aspx.designer.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autorizar.aspx.cs">
+      <DependentUpon>Autorizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autorizar.aspx.designer.cs">
+      <DependentUpon>Autorizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autorizar2.aspx.cs">
+      <DependentUpon>Autorizar2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autorizar2.aspx.designer.cs">
+      <DependentUpon>Autorizar2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agregarProveedor.aspx.cs">
+      <DependentUpon>agregarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agregarProveedor.aspx.designer.cs">
+      <DependentUpon>agregarProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\interfazOracle.aspx.cs">
+      <DependentUpon>interfazOracle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\interfazOracle.aspx.designer.cs">
+      <DependentUpon>interfazOracle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\subirDelSAT.aspx.cs">
+      <DependentUpon>subirDelSAT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\subirDelSAT.aspx.designer.cs">
+      <DependentUpon>subirDelSAT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notificacionElim.aspx.cs">
+      <DependentUpon>notificacionElim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notificacionElim.aspx.designer.cs">
+      <DependentUpon>notificacionElim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nuevo\autoRazon.asmx.cs">
+      <DependentUpon>autoRazon.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="nuevo\autoRec.asmx.cs">
+      <DependentUpon>autoRec.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="nuevo\retencionManual.aspx.cs">
+      <DependentUpon>retencionManual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nuevo\retencionManual.aspx.designer.cs">
+      <DependentUpon>retencionManual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privacidad.aspx.cs">
+      <DependentUpon>Privacidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacidad.aspx.designer.cs">
+      <DependentUpon>Privacidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\adminCat.aspx.cs">
+      <DependentUpon>adminCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\adminCat.aspx.designer.cs">
+      <DependentUpon>adminCat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\ComprobantesOTM.aspx.cs">
+      <DependentUpon>ComprobantesOTM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\ComprobantesOTM.aspx.designer.cs">
+      <DependentUpon>ComprobantesOTM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\AdminMensaje.aspx.cs">
+      <DependentUpon>AdminMensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\AdminMensaje.aspx.designer.cs">
+      <DependentUpon>AdminMensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\perfilEmple.aspx.cs">
+      <DependentUpon>perfilEmple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\perfilEmple.aspx.designer.cs">
+      <DependentUpon>perfilEmple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\perfilProv.aspx.cs">
+      <DependentUpon>perfilProv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\perfilProv.aspx.designer.cs">
+      <DependentUpon>perfilProv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\inicio.aspx.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\inicio.aspx.designer.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\mensajePortal.aspx.cs">
+      <DependentUpon>mensajePortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\mensajePortal.aspx.designer.cs">
+      <DependentUpon>mensajePortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\reportesDHL.aspx.cs">
+      <DependentUpon>reportesDHL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\reportesDHL.aspx.designer.cs">
+      <DependentUpon>reportesDHL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\tiposProveedor.aspx.cs">
+      <DependentUpon>tiposProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\tiposProveedor.aspx.designer.cs">
+      <DependentUpon>tiposProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\monedas.aspx.cs">
+      <DependentUpon>monedas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\monedas.aspx.designer.cs">
+      <DependentUpon>monedas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\diasOperacion.aspx.cs">
+      <DependentUpon>diasOperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\diasOperacion.aspx.designer.cs">
+      <DependentUpon>diasOperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\codigosIVA.aspx.cs">
+      <DependentUpon>codigosIVA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\codigosIVA.aspx.designer.cs">
+      <DependentUpon>codigosIVA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\receptoresCfdi.aspx.cs">
+      <DependentUpon>receptoresCfdi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\receptoresCfdi.aspx.designer.cs">
+      <DependentUpon>receptoresCfdi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\solicitudes.aspx.cs">
+      <DependentUpon>solicitudes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\solicitudes.aspx.designer.cs">
+      <DependentUpon>solicitudes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\proveedoresDhl.aspx.cs">
+      <DependentUpon>proveedoresDhl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\proveedoresDhl.aspx.designer.cs">
+      <DependentUpon>proveedoresDhl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\GruposUsuarios.aspx.cs">
+      <DependentUpon>GruposUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\GruposUsuarios.aspx.designer.cs">
+      <DependentUpon>GruposUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\UsuariosDhl.aspx.cs">
+      <DependentUpon>UsuariosDhl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\UsuariosDhl.aspx.designer.cs">
+      <DependentUpon>UsuariosDhl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\interfazArc.aspx.cs">
+      <DependentUpon>interfazArc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\interfazArc.aspx.designer.cs">
+      <DependentUpon>interfazArc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\menuSec.aspx.cs">
+      <DependentUpon>menuSec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\menuSec.aspx.designer.cs">
+      <DependentUpon>menuSec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuReceDHL\ComprobantesFiscales.aspx.cs">
+      <DependentUpon>ComprobantesFiscales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuReceDHL\ComprobantesFiscales.aspx.designer.cs">
+      <DependentUpon>ComprobantesFiscales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuNuevo.aspx.cs">
+      <DependentUpon>MenuNuevo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuNuevo.aspx.designer.cs">
+      <DependentUpon>MenuNuevo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuAdmin.aspx.cs">
+      <DependentUpon>menuAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuAdmin.aspx.designer.cs">
+      <DependentUpon>menuAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notificacion.aspx.cs">
+      <DependentUpon>notificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notificacion.aspx.designer.cs">
+      <DependentUpon>notificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrosXLS.aspx.cs">
+      <DependentUpon>RegistrosXLS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosXLS.aspx.designer.cs">
+      <DependentUpon>RegistrosXLS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RenovarContra.aspx.cs">
+      <DependentUpon>RenovarContra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RenovarContra.aspx.designer.cs">
+      <DependentUpon>RenovarContra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OlvideContra.aspx.cs">
+      <DependentUpon>OlvideContra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvideContra.aspx.designer.cs">
+      <DependentUpon>OlvideContra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuVal.aspx.cs">
+      <DependentUpon>menuVal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuVal.aspx.designer.cs">
+      <DependentUpon>menuVal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\reporteSucursalesA.aspx.cs">
+      <DependentUpon>reporteSucursalesA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\reporteSucursalesA.aspx.designer.cs">
+      <DependentUpon>reporteSucursalesA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadoVal.aspx.cs">
+      <DependentUpon>ResultadoVal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResultadoVal.aspx.designer.cs">
+      <DependentUpon>ResultadoVal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\log\logError.aspx.cs">
+      <DependentUpon>logError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\log\logError.aspx.designer.cs">
+      <DependentUpon>logError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\Mostrar.aspx.cs">
+      <DependentUpon>Mostrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\Mostrar.aspx.designer.cs">
+      <DependentUpon>Mostrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentosInvalidos.aspx.cs">
+      <DependentUpon>DocumentosInvalidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentosInvalidos.aspx.designer.cs">
+      <DependentUpon>DocumentosInvalidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cuenta\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cuenta\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cuenta\Olvido.aspx.cs">
+      <DependentUpon>Olvido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cuenta\Olvido.aspx.designer.cs">
+      <DependentUpon>Olvido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="construccion.aspx.cs">
+      <DependentUpon>construccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="construccion.aspx.designer.cs">
+      <DependentUpon>construccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentos.aspx.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentos.aspx.designer.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="download.aspx.designer.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cuenta\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cuenta\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cerrar.aspx.cs">
+      <DependentUpon>Cerrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cerrar.aspx.designer.cs">
+      <DependentUpon>Cerrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="datosAdicionales.aspx.cs">
+      <DependentUpon>datosAdicionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datosAdicionales.aspx.designer.cs">
+      <DependentUpon>datosAdicionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\log\enviar.aspx.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="configuracion\log\enviar.aspx.designer.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enviarInv.aspx.cs">
+      <DependentUpon>enviarInv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enviarInv.aspx.designer.cs">
+      <DependentUpon>enviarInv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manual\GlosarioErrores.aspx.cs">
+      <DependentUpon>GlosarioErrores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manual\GlosarioErrores.aspx.designer.cs">
+      <DependentUpon>GlosarioErrores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RecepcionSAT\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Soporte.aspx.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Soporte.aspx.designer.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subirXLS.aspx.cs">
+      <DependentUpon>subirXLS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subirXLS.aspx.designer.cs">
+      <DependentUpon>subirXLS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\filesUpload.ascx.cs">
+      <DependentUpon>filesUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\filesUpload.ascx.designer.cs">
+      <DependentUpon>filesUpload.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\multiFileUpload.ascx.cs">
+      <DependentUpon>multiFileUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\multiFileUpload.ascx.designer.cs">
+      <DependentUpon>multiFileUpload.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Validar.aspx.cs">
+      <DependentUpon>Validar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validar.aspx.designer.cs">
+      <DependentUpon>Validar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="librerias\ExcelUtilities.cs" />
+    <Compile Include="newdoc.aspx.cs">
+      <DependentUpon>newdoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newdoc.aspx.designer.cs">
+      <DependentUpon>newdoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="validarFacturas.aspx.cs">
+      <DependentUpon>validarFacturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validarFacturas.aspx.designer.cs">
+      <DependentUpon>validarFacturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\GInterComp\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebServiceInterfaz\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebServiceReport\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\wsRetenciones\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="ws\recepcion.asmx.cs">
+      <DependentUpon>recepcion.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ws\RecepcionSAT.asmx.cs">
+      <DependentUpon>RecepcionSAT.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ws\Retenciones.asmx.cs">
+      <DependentUpon>Retenciones.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="docus\" />
+    <Folder Include="reportes\Docs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeQR\CodeQR.csproj">
+      <Project>{bc3a8b1b-f6ce-4f95-9218-12b9d60eaf28}</Project>
+      <Name>CodeQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Control\Control.csproj">
+      <Project>{6D54F8F7-39DE-4076-BC26-775D833A3C85}</Project>
+      <Name>Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{30E49478-97EE-45B6-A9C2-4E5242F7A39F}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoadXls\LoadXls.csproj">
+      <Project>{93cecaa8-a8f9-4bdf-8db0-d819fd402ce4}</Project>
+      <Name>LoadXls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAT\SAT.csproj">
+      <Project>{b42f6367-436c-43ec-bd90-2040623dd5b5}</Project>
+      <Name>SAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\validacion\ValSign.csproj">
+      <Project>{eb349c5b-eb39-4816-8e7b-2b64ce9fb486}</Project>
+      <Name>ValSign</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes-dhl\CAMBIO_EXEL_AUTOMOCION.PDF" />
+    <None Include="Imagenes-dhl\FUSION_VENTURE.pdf" />
+    <None Include="Imagenes-dhl\manual.pdf" />
+    <None Include="manual\MANUAL PARA GENERACIÓN DE FACTURAS Y NOTAS DE CRÉDITO.doc" />
+    <None Include="Properties\PublishProfiles\Perfil1.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RecepcionSAT\RecepcionSAT.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\RecepcionSAT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:20972/ws/Retenciones.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\wsRetenciones\</RelPath>
+      <UpdateFromURL>http://localhost:20972/ws/Retenciones.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DataExpressWeb_wsRetenciones_Retenciones</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:62618/GenerarInterfaz.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebServiceInterfaz\</RelPath>
+      <UpdateFromURL>http://localhost:62618/GenerarInterfaz.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DataExpressWeb_WebServiceInterfaz_GenerarInterfaz</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:62618/GenerarReporte.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebServiceReport\</RelPath>
+      <UpdateFromURL>http://localhost:62618/GenerarReporte.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DataExpressWeb_WebServiceReport_GenerarReporte</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:62618/GInterfazComplemento.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\GInterComp\</RelPath>
+      <UpdateFromURL>http://localhost:62618/GInterfazComplemento.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DataExpressWeb_GInterComp_GInterfazComplemento</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>20966</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:20972/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

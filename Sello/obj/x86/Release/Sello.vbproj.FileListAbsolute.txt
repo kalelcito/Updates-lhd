@@ -1,0 +1,44 @@
+D:\server\SistemasFacturacion\DataUps\Sello\bin\Release\Sello.dll
+D:\server\SistemasFacturacion\DataUps\Sello\bin\Release\Sello.pdb
+D:\server\SistemasFacturacion\DataUps\Sello\bin\Release\Sello.xml
+D:\server\SistemasFacturacion\DataUps\Sello\bin\Release\diCrSysPKINet.dll
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\Sello.dll
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\Sello.xml
+D:\server\SistemasFacturacion\DataUps\Sello\obj\x86\Release\Sello.pdb
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\bin\Release\Sello.dll
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\bin\Release\Sello.pdb
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\bin\Release\Sello.xml
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\bin\Release\diCrSysPKINet.dll
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\Sello.Resources.resources
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\Sello.dll
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\Sello.xml
+D:\server\SistemasFacturacion\DataUpsWebUnific\Sello\obj\x86\Release\Sello.pdb
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Release\Sello.dll
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Release\Sello.pdb
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Release\Sello.xml
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\bin\Release\diCrSysPKINet.dll
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\ResolveAssemblyReference.cache
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\Sello.Resources.resources
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\GenerateResource.read.1.tlog
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\GenerateResource.write.1.tlog
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\Sello.dll
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\Sello.xml
+D:\server\SistemasFacturacion 1.0\DataBDI\DataBDIWeb\Sello\obj\x86\Release\Sello.pdb
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Release\Sello.dll
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Release\Sello.pdb
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Release\Sello.xml
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\bin\Release\diCrSysPKINet.dll
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\ResolveAssemblyReference.cache
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\Sello.Resources.resources
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\GenerateResource.read.1.tlog
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\GenerateResource.write.1.tlog
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\Sello.dll
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\Sello.xml
+D:\DataExpress\BDI\DataBDIWeb\DataBDIWeb\Sello\obj\x86\Release\Sello.pdb

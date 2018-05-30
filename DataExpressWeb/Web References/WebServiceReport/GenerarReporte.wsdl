@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GeneraReporte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sucursal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dir" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechanom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipreporte" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ptoemi" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="auxRuta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rfcrec" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraReporteResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GeneraReporteSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraReporte" />
+  </wsdl:message>
+  <wsdl:message name="GeneraReporteSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraReporteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GenerarReporteSoap">
+    <wsdl:operation name="GeneraReporte">
+      <wsdl:input message="tns:GeneraReporteSoapIn" />
+      <wsdl:output message="tns:GeneraReporteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GenerarReporteSoap" type="tns:GenerarReporteSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GeneraReporte">
+      <soap:operation soapAction="http://tempuri.org/GeneraReporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GenerarReporteSoap12" type="tns:GenerarReporteSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GeneraReporte">
+      <soap12:operation soapAction="http://tempuri.org/GeneraReporte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GenerarReporte">
+    <wsdl:port name="GenerarReporteSoap" binding="tns:GenerarReporteSoap">
+      <soap:address location="http://localhost:62618/GenerarReporte.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GenerarReporteSoap12" binding="tns:GenerarReporteSoap12">
+      <soap12:address location="http://localhost:62618/GenerarReporte.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

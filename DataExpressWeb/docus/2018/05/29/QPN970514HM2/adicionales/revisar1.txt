@@ -1,0 +1,10 @@
+crear facturas, agregar documentos relacionados, UUID-Serie
+validacion de los montos en complementos de pago
+comprobante de pago, error al dar clic en generar
+
+**************** MODIFICACIONES ********************
+crearfactura.aspx.cs
+crearfactura.aspx
+
+documentosporcobrar.aspx.cs
+documentosporcobrar.aspx

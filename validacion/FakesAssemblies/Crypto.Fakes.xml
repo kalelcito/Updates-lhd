@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Crypto.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Crypto.Fakes.ShimSelloDigital">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Crypto.SelloDigital</summary>
+        </member>
+        <member name="M:Crypto.Fakes.ShimSelloDigital.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Crypto.Fakes.ShimSelloDigital.#ctor(Crypto.SelloDigital)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="T:Crypto.Fakes.ShimSelloDigital.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_CertToBase64String">
+            <summary>Establecer el shim de SelloDigital.Mex_CertToBase64String()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_CertToBase64StringString">
+            <summary>Establecer el shim de SelloDigital.Mex_CertToBase64String(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_CheckKeyAndCertMatch">
+            <summary>Establecer el shim de SelloDigital.Mex_CheckKeyAndCertMatch()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_Convert_Latin1_To_UTF8">
+            <summary>Establecer el shim de SelloDigital.Mex_Convert_Latin1_To_UTF8()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_CreateDigestFromStringString">
+            <summary>Establecer el shim de SelloDigital.Mex_CreateDigestFromString(String strCadena)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_CreateSignature">
+            <summary>Establecer el shim de SelloDigital.Mex_CreateSignature()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_ExtractDigestFromSignatureStringString">
+            <summary>Establecer el shim de SelloDigital.Mex_ExtractDigestFromSignature(String strcadBase64, String strCertificado)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_QueryCertString">
+            <summary>Establecer el shim de SelloDigital.Mex_QueryCertString()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_SAT_SerialNumber">
+            <summary>Establecer el shim de SelloDigital.Mex_SAT_SerialNumber()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.Mex_SAT_SerialNumberString">
+            <summary>Establecer el shim de SelloDigital.Mex_SAT_SerialNumber(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.SelloDigitalStringStringStringStringString">
+            <summary>Establecer el shim de SelloDigital.SelloDigital(String strCadena, String rutaCer, String rutaKey, String psw, String algoritmo)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.certificadoValidoString">
+            <summary>Establecer el shim de SelloDigital.certificadoValido(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.AllInstances.setHashString">
+            <summary>Establecer el shim de SelloDigital.setHash(String algoritmo)</summary>
+        </member>
+        <member name="M:Crypto.Fakes.ShimSelloDigital.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Crypto.Fakes.ShimSelloDigital.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Constructor">
+            <summary>Establecer el shim de SelloDigital.SelloDigital()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_CertToBase64String">
+            <summary>Establecer el shim de SelloDigital.Mex_CertToBase64String()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_CertToBase64StringString">
+            <summary>Establecer el shim de SelloDigital.Mex_CertToBase64String(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_CheckKeyAndCertMatch">
+            <summary>Establecer el shim de SelloDigital.Mex_CheckKeyAndCertMatch()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_Convert_Latin1_To_UTF8">
+            <summary>Establecer el shim de SelloDigital.Mex_Convert_Latin1_To_UTF8()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_CreateDigestFromStringString">
+            <summary>Establecer el shim de SelloDigital.Mex_CreateDigestFromString(String strCadena)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_CreateSignature">
+            <summary>Establecer el shim de SelloDigital.Mex_CreateSignature()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_ExtractDigestFromSignatureStringString">
+            <summary>Establecer el shim de SelloDigital.Mex_ExtractDigestFromSignature(String strcadBase64, String strCertificado)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_QueryCertString">
+            <summary>Establecer el shim de SelloDigital.Mex_QueryCertString()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_SAT_SerialNumber">
+            <summary>Establecer el shim de SelloDigital.Mex_SAT_SerialNumber()</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.Mex_SAT_SerialNumberString">
+            <summary>Establecer el shim de SelloDigital.Mex_SAT_SerialNumber(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.SelloDigitalStringStringStringStringString">
+            <summary>Establecer el shim de SelloDigital.SelloDigital(String strCadena, String rutaCer, String rutaKey, String psw, String algoritmo)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.certificadoValidoString">
+            <summary>Establecer el shim de SelloDigital.certificadoValido(String ruta)</summary>
+        </member>
+        <member name="P:Crypto.Fakes.ShimSelloDigital.setHashString">
+            <summary>Establecer el shim de SelloDigital.setHash(String algoritmo)</summary>
+        </member>
+        <member name="T:Crypto.Fakes.StubSelloDigital">
+            <summary>Tipo stub de Crypto.SelloDigital</summary>
+        </member>
+        <member name="M:Crypto.Fakes.StubSelloDigital.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="P:Crypto.Fakes.StubSelloDigital.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="M:Crypto.Fakes.StubSelloDigital.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubSelloDigital</summary>
+        </member>
+        <member name="P:Crypto.Fakes.StubSelloDigital.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Crypto.Fakes.StubSelloDigital.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+    </members>
+</doc>

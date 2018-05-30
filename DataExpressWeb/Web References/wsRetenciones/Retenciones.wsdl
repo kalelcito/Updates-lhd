@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="retencionFactura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idFactura" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retencionFacturaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retencionFacturaResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="procesarRetencionTXT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="txt" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="procesarRetencionTXTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="procesarRetencionTXTResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="procesarRetencionArchivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="procesarRetencionArchivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="procesarRetencionArchivoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cancelarRetencion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idFactura" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cancelarRetencionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cancelarRetencionResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obtenerMensajeError">
+        <s:complexType />
+      </s:element>
+      <s:element name="obtenerMensajeErrorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obtenerMensajeErrorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="retencionFacturaSoapIn">
+    <wsdl:part name="parameters" element="tns:retencionFactura" />
+  </wsdl:message>
+  <wsdl:message name="retencionFacturaSoapOut">
+    <wsdl:part name="parameters" element="tns:retencionFacturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="procesarRetencionTXTSoapIn">
+    <wsdl:part name="parameters" element="tns:procesarRetencionTXT" />
+  </wsdl:message>
+  <wsdl:message name="procesarRetencionTXTSoapOut">
+    <wsdl:part name="parameters" element="tns:procesarRetencionTXTResponse" />
+  </wsdl:message>
+  <wsdl:message name="procesarRetencionArchivoSoapIn">
+    <wsdl:part name="parameters" element="tns:procesarRetencionArchivo" />
+  </wsdl:message>
+  <wsdl:message name="procesarRetencionArchivoSoapOut">
+    <wsdl:part name="parameters" element="tns:procesarRetencionArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="cancelarRetencionSoapIn">
+    <wsdl:part name="parameters" element="tns:cancelarRetencion" />
+  </wsdl:message>
+  <wsdl:message name="cancelarRetencionSoapOut">
+    <wsdl:part name="parameters" element="tns:cancelarRetencionResponse" />
+  </wsdl:message>
+  <wsdl:message name="obtenerMensajeErrorSoapIn">
+    <wsdl:part name="parameters" element="tns:obtenerMensajeError" />
+  </wsdl:message>
+  <wsdl:message name="obtenerMensajeErrorSoapOut">
+    <wsdl:part name="parameters" element="tns:obtenerMensajeErrorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RetencionesSoap">
+    <wsdl:operation name="retencionFactura">
+      <wsdl:input message="tns:retencionFacturaSoapIn" />
+      <wsdl:output message="tns:retencionFacturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionTXT">
+      <wsdl:input message="tns:procesarRetencionTXTSoapIn" />
+      <wsdl:output message="tns:procesarRetencionTXTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionArchivo">
+      <wsdl:input message="tns:procesarRetencionArchivoSoapIn" />
+      <wsdl:output message="tns:procesarRetencionArchivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelarRetencion">
+      <wsdl:input message="tns:cancelarRetencionSoapIn" />
+      <wsdl:output message="tns:cancelarRetencionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerMensajeError">
+      <wsdl:input message="tns:obtenerMensajeErrorSoapIn" />
+      <wsdl:output message="tns:obtenerMensajeErrorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RetencionesSoap" type="tns:RetencionesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retencionFactura">
+      <soap:operation soapAction="http://tempuri.org/retencionFactura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionTXT">
+      <soap:operation soapAction="http://tempuri.org/procesarRetencionTXT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionArchivo">
+      <soap:operation soapAction="http://tempuri.org/procesarRetencionArchivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarRetencion">
+      <soap:operation soapAction="http://tempuri.org/cancelarRetencion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerMensajeError">
+      <soap:operation soapAction="http://tempuri.org/obtenerMensajeError" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RetencionesSoap12" type="tns:RetencionesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retencionFactura">
+      <soap12:operation soapAction="http://tempuri.org/retencionFactura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionTXT">
+      <soap12:operation soapAction="http://tempuri.org/procesarRetencionTXT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="procesarRetencionArchivo">
+      <soap12:operation soapAction="http://tempuri.org/procesarRetencionArchivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarRetencion">
+      <soap12:operation soapAction="http://tempuri.org/cancelarRetencion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerMensajeError">
+      <soap12:operation soapAction="http://tempuri.org/obtenerMensajeError" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Retenciones">
+    <wsdl:port name="RetencionesSoap" binding="tns:RetencionesSoap">
+      <soap:address location="http://localhost:20972/ws/Retenciones.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RetencionesSoap12" binding="tns:RetencionesSoap12">
+      <soap12:address location="http://localhost:20972/ws/Retenciones.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

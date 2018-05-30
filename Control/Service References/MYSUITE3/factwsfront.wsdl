@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.fact.com.mx/schema/ws" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.fact.com.mx/schema/ws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.fact.com.mx/schema/ws">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="RequestTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Requestor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Transaction" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Entity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data3" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RequestTransactionResult" type="tns:TransactionTag" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TransactionTag">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Request" type="tns:FactRequest" />
+          <s:element minOccurs="0" maxOccurs="1" name="Response" type="tns:FactResponse" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseData" type="tns:FactResponseData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FactRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Requestor" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="RequestorName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RequestorActive" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Transaction" type="tns:Transactions" />
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Entity" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="User" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeStamp" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Transactions">
+        <s:restriction base="s:string">
+          <s:enumeration value="BASE" />
+          <s:enumeration value="NO_TRANSACTION" />
+          <s:enumeration value="CONVERT_NATIVE_XML" />
+          <s:enumeration value="GET_MTE_BATCH" />
+          <s:enumeration value="PROCESS_BATCH" />
+          <s:enumeration value="SYSTEM_REQUEST" />
+          <s:enumeration value="RECEIVE_BATCH" />
+          <s:enumeration value="ENROLL_CERT" />
+          <s:enumeration value="GET_XML" />
+          <s:enumeration value="GET_HTML" />
+          <s:enumeration value="GET_XML_AND_HTML" />
+          <s:enumeration value="CANCEL_XML" />
+          <s:enumeration value="MARK_XML_AS_PAID" />
+          <s:enumeration value="MARK_XML_AS_UNPAID" />
+          <s:enumeration value="SEARCH_BASIC" />
+          <s:enumeration value="GET_MONTHLY_REPORT" />
+          <s:enumeration value="GET_MONTHLY_REPORT_FOR_PROVIDER" />
+          <s:enumeration value="GET_FOLIOS_BY_RFC" />
+          <s:enumeration value="DOES_ASSIGNMENT_EXIST" />
+          <s:enumeration value="CANCEL_XML_BY_INTERNAL_ID" />
+          <s:enumeration value="ACTIVATE_ASSIGNMENT" />
+          <s:enumeration value="COUNT_ACTIVE_ASSIGNMENTS" />
+          <s:enumeration value="GET_DOCUMENT" />
+          <s:enumeration value="GET_HISTORY" />
+          <s:enumeration value="AUTHENTICATE_USER" />
+          <s:enumeration value="GET_ACCOUNT" />
+          <s:enumeration value="DISTRIBUTE" />
+          <s:enumeration value="QUEUE_FOR_DISTRIBUTION" />
+          <s:enumeration value="GET_EFFECTIVE_RIGHTS" />
+          <s:enumeration value="EXEC_STORED_PROC" />
+          <s:enumeration value="GET_USER_INFO" />
+          <s:enumeration value="RECEIVE" />
+          <s:enumeration value="GET_PREVIEW" />
+          <s:enumeration value="RETRIEVE_DOCUMENT" />
+          <s:enumeration value="MARK_DOCUMENT_AS_PAID" />
+          <s:enumeration value="MARK_DOCUMENT_AS_NOT_PAID" />
+          <s:enumeration value="CANCEL_DOCUMENT" />
+          <s:enumeration value="MARK_DOCUMENT_AS_DELETED" />
+          <s:enumeration value="MARK_DOCUMENT_AS_NOT_DELETED" />
+          <s:enumeration value="RETRIEVE_HISTORY" />
+          <s:enumeration value="GET_ADDENDA_RECEIVERS" />
+          <s:enumeration value="REQUEST_PASSWORD_CHANGE" />
+          <s:enumeration value="CHANGE_DOCUMENT_SUCURSAL" />
+          <s:enumeration value="CREATE_ACCOUNT_AS_OWNER" />
+          <s:enumeration value="CREATE_PASSWORD" />
+          <s:enumeration value="PASSWORD_FORGOT" />
+          <s:enumeration value="CREATE_USER" />
+          <s:enumeration value="INCREMENT_BUNDLE_SIZE" />
+          <s:enumeration value="TIMBRAR" />
+          <s:enumeration value="LOOKUP_ISSUED_INTERNAL_ID" />
+          <s:enumeration value="VALIDATE_CERT" />
+          <s:enumeration value="BATCH_SERIAL_OPERATIONS" />
+          <s:enumeration value="PROCESS_LCO" />
+          <s:enumeration value="ENROLL_THIRD_PARTY_CERT" />
+          <s:enumeration value="CANCEL_CFDI" />
+          <s:enumeration value="UPDATE_ACCOUNT_DATA" />
+          <s:enumeration value="ASSIGN_ACCOUNT_REQUESTOR" />
+          <s:enumeration value="UPDATE_USER_DATA" />
+          <s:enumeration value="UPDATE_ADMIN_USER_DATA" />
+          <s:enumeration value="CREATE_ADMIN_USER" />
+          <s:enumeration value="UPSERT_GRAPHIC_REPRESENTATION" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="FactResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Result" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeStamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastResult" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Code" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hint" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Processor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Identifier" type="tns:DocID" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchIdentifier" type="tns:BatchID" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DocID">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Entity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FiscalName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AYear" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ANumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Batch" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Serial" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocumentGUID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuedTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnrolledTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaidTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CancelledTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InternalID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchRequestorCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchRequestorEntity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchPosition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverEntity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverTaxID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaveAgente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDePoliza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SuggestedFileName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SuggestedFileName2" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BatchID">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BatchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchTimeStamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchRequestorCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchRequestorEntity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchPosition" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FactResponseData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseData1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseData2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseData3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseDataSet">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SSLTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataExchange" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SSLTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SSLTransactionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SecureTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataExchange" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SecureTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SecureTransactionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RequestTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestTransaction" />
+  </wsdl:message>
+  <wsdl:message name="RequestTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SSLTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:SSLTransaction" />
+  </wsdl:message>
+  <wsdl:message name="SSLTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:SSLTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SecureTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:SecureTransaction" />
+  </wsdl:message>
+  <wsdl:message name="SecureTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:SecureTransactionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FactWSFrontSoap">
+    <wsdl:operation name="RequestTransaction">
+      <wsdl:input message="tns:RequestTransactionSoapIn" />
+      <wsdl:output message="tns:RequestTransactionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SSLTransaction">
+      <wsdl:input message="tns:SSLTransactionSoapIn" />
+      <wsdl:output message="tns:SSLTransactionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SecureTransaction">
+      <wsdl:input message="tns:SecureTransactionSoapIn" />
+      <wsdl:output message="tns:SecureTransactionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FactWSFrontSoap" type="tns:FactWSFrontSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RequestTransaction">
+      <soap:operation soapAction="http://www.fact.com.mx/schema/ws/RequestTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SSLTransaction">
+      <soap:operation soapAction="http://www.fact.com.mx/schema/ws/SSLTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SecureTransaction">
+      <soap:operation soapAction="http://www.fact.com.mx/schema/ws/SecureTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FactWSFrontSoap12" type="tns:FactWSFrontSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RequestTransaction">
+      <soap12:operation soapAction="http://www.fact.com.mx/schema/ws/RequestTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SSLTransaction">
+      <soap12:operation soapAction="http://www.fact.com.mx/schema/ws/SSLTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SecureTransaction">
+      <soap12:operation soapAction="http://www.fact.com.mx/schema/ws/SecureTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FactWSFront">
+    <wsdl:port name="FactWSFrontSoap" binding="tns:FactWSFrontSoap">
+      <soap:address location="https://www.mysuitetest.com/mx.com.fact.wsfront/factwsfront.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FactWSFrontSoap12" binding="tns:FactWSFrontSoap12">
+      <soap12:address location="https://www.mysuitetest.com/mx.com.fact.wsfront/factwsfront.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

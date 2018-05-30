@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://cancelacfd.sat.gob.mx" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CancelaCFDService" targetNamespace="http://cancelacfd.sat.gob.mx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_ICancelaCFDBinding_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://cancelacfd.sat.gob.mx" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://www.w3.org/2000/09/xmldsig#" />
+      <xs:element name="CancelaCFD">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Cancelacion" type="tns:Cancelacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Cancelacion">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Folios">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="1" name="UUID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element xmlns:q1="http://www.w3.org/2000/09/xmldsig#" minOccurs="0" maxOccurs="1" ref="q1:Signature" />
+        </xs:sequence>
+        <xs:attribute name="RfcEmisor" type="xs:string" />
+        <xs:attribute name="Fecha" type="xs:dateTime" use="required" />
+      </xs:complexType>
+      <xs:element name="CancelaCFDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="CancelaCFDResult" type="tns:Acuse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Acuse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Folios">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="1" name="UUID" type="xs:string" />
+                <xs:element minOccurs="0" maxOccurs="1" name="EstatusUUID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element xmlns:q2="http://www.w3.org/2000/09/xmldsig#" minOccurs="0" maxOccurs="1" ref="q2:Signature" />
+        </xs:sequence>
+        <xs:attribute name="CodEstatus" type="xs:string" />
+        <xs:attribute name="Fecha" type="xs:dateTime" use="required" />
+        <xs:attribute name="RfcEmisor" type="xs:string" />
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="http://www.w3.org/2000/09/xmldsig#" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Signature" type="tns:SignatureType" />
+      <xs:complexType name="SignatureType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="SignedInfo" type="tns:SignedInfoType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SignatureValue" type="xs:base64Binary" />
+          <xs:element minOccurs="0" maxOccurs="1" name="KeyInfo" type="tns:KeyInfoType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Object" type="tns:ObjectType" />
+        </xs:sequence>
+        <xs:attribute name="Id" type="xs:ID" />
+      </xs:complexType>
+      <xs:complexType name="SignedInfoType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="CanonicalizationMethod" type="tns:CanonicalizationMethodType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SignatureMethod" type="tns:SignatureMethodType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Reference" type="tns:ReferenceType" />
+        </xs:sequence>
+        <xs:attribute name="Id" type="xs:ID" />
+      </xs:complexType>
+      <xs:complexType name="CanonicalizationMethodType" mixed="true">
+        <xs:sequence>
+          <xs:any minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="Algorithm" type="xs:anyURI" />
+      </xs:complexType>
+      <xs:complexType name="SignatureMethodType" mixed="true">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="HMACOutputLength" type="xs:integer" />
+          <xs:any minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="Algorithm" type="xs:anyURI" />
+      </xs:complexType>
+      <xs:complexType name="ReferenceType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Transforms" type="tns:ArrayOfTransformType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="DigestMethod" type="tns:DigestMethodType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="DigestValue" type="xs:base64Binary" />
+        </xs:sequence>
+        <xs:attribute name="Id" type="xs:ID" />
+        <xs:attribute name="URI" type="xs:anyURI" />
+        <xs:attribute name="Type" type="xs:anyURI" />
+      </xs:complexType>
+      <xs:complexType name="ArrayOfTransformType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Transform" type="tns:TransformType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TransformType" mixed="true">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="XPath" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="Algorithm" type="xs:anyURI" />
+      </xs:complexType>
+      <xs:complexType name="DigestMethodType" mixed="true">
+        <xs:sequence>
+          <xs:any minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="Algorithm" type="xs:anyURI" />
+      </xs:complexType>
+      <xs:complexType name="KeyInfoType" mixed="true">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="X509Data" type="tns:X509DataType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="KeyName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="KeyValue" type="tns:KeyValueType" />
+        </xs:sequence>
+        <xs:attribute name="Id" type="xs:ID" />
+      </xs:complexType>
+      <xs:complexType name="X509DataType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="X509IssuerSerial" type="tns:X509IssuerSerialType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="X509Certificate" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="X509IssuerSerialType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="X509IssuerName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="X509SerialNumber" type="xs:integer" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KeyValueType" mixed="true">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="RSAKeyValue" type="tns:RSAKeyValueType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RSAKeyValueType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Modulus" type="xs:base64Binary" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Exponent" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObjectType" mixed="true">
+        <xs:sequence>
+          <xs:any minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="Id" type="xs:ID" />
+        <xs:attribute name="MimeType" type="xs:string" />
+        <xs:attribute name="Encoding" type="xs:anyURI" />
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="ICancelaCFDBinding_CancelaCFD_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelaCFD" />
+  </wsdl:message>
+  <wsdl:message name="ICancelaCFDBinding_CancelaCFD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelaCFDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICancelaCFDBinding">
+    <wsdl:operation name="CancelaCFD">
+      <wsdl:input wsaw:Action="http://cancelacfd.sat.gob.mx/ICancelaCFDBinding/CancelaCFD" message="tns:ICancelaCFDBinding_CancelaCFD_InputMessage" />
+      <wsdl:output wsaw:Action="http://cancelacfd.sat.gob.mx/ICancelaCFDBinding/CancelaCFDResponse" message="tns:ICancelaCFDBinding_CancelaCFD_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICancelaCFDBinding" type="tns:ICancelaCFDBinding">
+    <wsp:PolicyReference URI="#BasicHttpBinding_ICancelaCFDBinding_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CancelaCFD">
+      <soap:operation soapAction="http://cancelacfd.sat.gob.mx/ICancelaCFDBinding/CancelaCFD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CancelaCFDService">
+    <wsdl:port name="BasicHttpBinding_ICancelaCFDBinding" binding="tns:BasicHttpBinding_ICancelaCFDBinding">
+      <soap:address location="https://cancelacion.facturaelectronica.sat.gob.mx/Cancelacion/CancelaCFDService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

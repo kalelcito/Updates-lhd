@@ -1,0 +1,4 @@
+
+Log Entry : 12:02:09 p. m.
+    :[FAIL=RowNumbers:8-8, UUIDs:7629ef6c-06e4-4cde-9901-3db22a8490c9]: La sumatoria del Amount de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (222.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------

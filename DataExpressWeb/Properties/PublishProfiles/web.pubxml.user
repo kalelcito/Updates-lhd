@@ -1,0 +1,2323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>H:\Publicaciones\webRecep33</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="adminstracion/roles/crear_rol.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/roles/eliminarRol.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/roles/modificar_roles.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/roles/roles.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sesiones/crear_sesion.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sesiones/eliminarSesion.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sesiones/modificar_sesion.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sesiones/sesiones.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sucursales/agregarSucursal.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sucursales/eliminarSucursal.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sucursales/modificarSucursal.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/sucursales/sucursales.aspx">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="adminstracion/usuarios/agregar_usuario.aspx">
+      <publishTime>08/21/2017 14:35:15</publishTime>
+    </File>
+    <File Include="adminstracion/usuarios/clientes.aspx">
+      <publishTime>08/21/2017 14:35:15</publishTime>
+    </File>
+    <File Include="adminstracion/usuarios/eliminar_usuario.aspx">
+      <publishTime>08/21/2017 14:35:15</publishTime>
+    </File>
+    <File Include="adminstracion/usuarios/empleados.aspx">
+      <publishTime>08/21/2017 14:35:15</publishTime>
+    </File>
+    <File Include="adminstracion/usuarios/modificar_usuario.aspx">
+      <publishTime>08/21/2017 14:35:15</publishTime>
+    </File>
+    <File Include="agregarProveedor.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="Autorizar.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Autorizar2.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/10/2016 11:45:36</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>09/30/2014 16:59:28</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/16/2014 14:35:14</publishTime>
+    </File>
+    <File Include="bin/CodeQR.dll">
+      <publishTime>05/11/2018 10:08:35</publishTime>
+    </File>
+    <File Include="bin/Control.dll">
+      <publishTime>05/15/2018 17:29:11</publishTime>
+    </File>
+    <File Include="bin/Crypto.dll">
+      <publishTime>08/04/2012 18:00:40</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ClientDoc.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommLayer.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonControls.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Controllers.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+      <publishTime>09/25/2015 17:58:02</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataDefModel.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Prompting.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>09/25/2015 17:58:04</publishTime>
+    </File>
+    <File Include="bin/DataExpressWeb.dll">
+      <publishTime>05/15/2018 17:29:12</publishTime>
+    </File>
+    <File Include="bin/DataExpressWeb.XmlSerializers.dll">
+      <publishTime>05/15/2018 17:29:13</publishTime>
+    </File>
+    <File Include="bin/Datos.dll">
+      <publishTime>05/11/2018 10:08:34</publishTime>
+    </File>
+    <File Include="bin/diCrSysPKINet.dll">
+      <publishTime>08/23/2010 09:57:04</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>08/04/2013 13:21:24</publishTime>
+    </File>
+    <File Include="bin/DotLiquid.dll">
+      <publishTime>01/06/2011 21:24:00</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>07/14/2016 15:57:38</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>07/10/2012 23:31:40</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>07/10/2012 23:31:52</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.resources.dll">
+      <publishTime>07/10/2012 23:31:40</publishTime>
+    </File>
+    <File Include="bin/Grid.Mvc.Ajax.dll">
+      <publishTime>06/04/2017 19:09:58</publishTime>
+    </File>
+    <File Include="bin/GridMvc.dll">
+      <publishTime>05/25/2017 23:47:12</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>09/16/2014 11:17:48</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>01/03/2011 14:16:38</publishTime>
+    </File>
+    <File Include="bin/LoadXlsOTM.dll">
+      <publishTime>05/11/2018 10:08:35</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>01/06/2011 21:24:28</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>09/30/2011 16:58:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.dll">
+      <publishTime>11/08/2011 16:22:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Runtime.dll">
+      <publishTime>11/08/2011 16:22:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/25/2013 15:40:12</publishTime>
+    </File>
+    <File Include="bin/SAT.dll">
+      <publishTime>05/11/2018 10:08:35</publishTime>
+    </File>
+    <File Include="bin/Sello.dll">
+      <publishTime>04/17/2012 14:42:44</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>04/22/2012 22:21:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>05/31/2012 13:59:20</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/31/2012 13:57:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>05/31/2012 13:59:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/31/2012 13:58:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/31/2012 13:58:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/17/2012 11:22:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/10/2012 12:03:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/10/2012 12:03:34</publishTime>
+    </File>
+    <File Include="bin/ThoughtWorks.QRCode.dll">
+      <publishTime>06/29/2015 16:49:52</publishTime>
+    </File>
+    <File Include="bin/validacion.dll">
+      <publishTime>05/11/2018 10:08:35</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="Cerrar.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="configuracion/addProveedores.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/email/addReglas.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/email/modReglas.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/email/reglas.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/email/servermail.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/log/enviar.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/log/logError.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/Mostrar.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="configuracion/Proveedores.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="construccion.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/AsyncFileUpload.Button.png">
+      <publishTime>08/23/2017 14:14:29</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/BalloonPopup.CloudSprite.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/BalloonPopup.CloudSprite.png">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/BalloonPopup.RectangleSprite.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/BalloonPopup.RectangleSprite.png">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Calendar.Arrow-Left.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Calendar.Arrow-Right.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/ComboBox.Arrow-Down.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/DropDown.DropArrow.gif">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Gravatar.Anonymous.jpg">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Gravatar.G.jpg">
+      <publishTime>08/23/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Gravatar.PG.jpg">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Gravatar.R.jpg">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Gravatar.X.jpg">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.BgiButton.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-1x1.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignCenter-Active.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignCenter-Inactive.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignJustify-Active.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignJustify-Inactive.gif">
+      <publishTime>08/23/2017 14:14:27</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignLeft-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignLeft-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignRemove-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignRemove-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignRight-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-AlignRight-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Anchor.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-BackColor-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-BackColor-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorBgClear-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorBgClear-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorFg-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorFg-Inactive.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorFgClear-Active.gif">
+      <publishTime>08/23/2017 14:14:26</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ColorFgClear-Inactive.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Copy-Active.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Copy-Inactive.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Cut-Active.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Cut-Inactive.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Design-Active.gif">
+      <publishTime>08/23/2017 14:14:25</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Design-Inactive.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Flash.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ForeColor-Active.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ForeColor-Inactive.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatBold-Active.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatBold-Inactive.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatItalic-Active.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatItalic-Inactive.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatLtr-Active.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatLtr-Inactive.gif">
+      <publishTime>08/23/2017 14:14:24</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatParagraph-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatParagraph-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatRtl-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatRtl-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatStrike-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatStrike-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatSub-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatSub-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatSup-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatSup-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatUnderline-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-FormatUnderline-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Html-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Html-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-IndentLess-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-IndentLess-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-IndentMore-Active.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-IndentMore-Inactive.gif">
+      <publishTime>08/23/2017 14:14:23</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Link-Active.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Link-Inactive.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ListBullet-Active.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ListBullet-Inactive.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ListNum-Active.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-ListNum-Inactive.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Media.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Paste-Active.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Paste-Inactive.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-PasteText-Active.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-PasteText-Inactive.gif">
+      <publishTime>08/23/2017 14:14:22</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-PasteWord-Active.gif">
+      <publishTime>08/23/2017 14:14:21</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-PasteWord-Inactive.gif">
+      <publishTime>08/23/2017 14:14:21</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Placeholder.gif">
+      <publishTime>08/23/2017 14:14:21</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Preview-Active.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Preview-Inactive.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Redo-Active.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Redo-Inactive.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Rule-Active.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Rule-Inactive.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Selector-Active.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Selector-Inactive.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Separator.gif">
+      <publishTime>08/23/2017 14:14:20</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Undo-Active.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Undo-Inactive.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Unformat-Active.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Unformat-Inactive.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Unlink-Active.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditor.Ed-Unlink-Inactive.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/HtmlEditorExtender.Buttons.png">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.Handle-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.Handle-Vertical.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.HandleDown-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.HandleDown-Vertical.gif">
+      <publishTime>08/23/2017 14:14:19</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.HandleHover-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.HandleHover-Vertical.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.Rail-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.Rail-Vertical.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.RailOuter-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/MultiHandleSlider.RailOuter-Vertical.gif">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Fullscreen-Grouphover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Fullscreen-Hover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Fullscreen-Pressed.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Fullscreen-Rest.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Home-Grouphover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Home-Hover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Home-Pressed.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.Home-Rest.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomIn-Grouphover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomIn-Hover.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomIn-Pressed.png">
+      <publishTime>08/23/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomIn-Rest.png">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomOut-Grouphover.png">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomOut-Hover.png">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomOut-Pressed.png">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Seadragon.ZoomOut-Rest.png">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Slider.Handle-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Slider.Handle-Vertical.gif">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Slider.Rail-Horizontal.gif">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Slider.Rail-Vertical.gif">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Active-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:17</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Active-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Active.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveLeft-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveLeft-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveLeft.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveRight-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveRight-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.ActiveRight.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Background.gif">
+      <publishTime>08/23/2017 14:14:16</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-Active.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-ActiveLeft.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-ActiveRight.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-Hover.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-HoverLeft.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-HoverRight.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-Left.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom-Right.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Bottom.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Hover-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Hover-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Hover.gif">
+      <publishTime>08/23/2017 14:14:15</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverLeft-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverLeft-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverRight-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverRight-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.HoverRight.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Left-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Left-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Left.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Line.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Right-VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Right-VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.Right.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.VerticalLeft.gif">
+      <publishTime>08/23/2017 14:14:14</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Tabs.VerticalRight.gif">
+      <publishTime>08/23/2017 14:14:13</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Twitter.24.png">
+      <publishTime>08/23/2017 14:14:13</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/Twitter.32.png">
+      <publishTime>08/23/2017 14:14:13</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/ValidatorCallout.Alert-Large.gif">
+      <publishTime>08/23/2017 14:14:13</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/ValidatorCallout.Alert-Small.gif">
+      <publishTime>08/23/2017 14:14:13</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Images/ValidatorCallout.Close.gif">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/AjaxFileUpload.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/AjaxFileUpload.min.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/AreaChart.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/AreaChart.min.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Backgrounds.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Backgrounds.min.css">
+      <publishTime>08/23/2017 14:14:12</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BalloonPopup.Cloud.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BalloonPopup.Cloud.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BalloonPopup.Rectangle.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BalloonPopup.Rectangle.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BarChart.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BarChart.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BubbleChart.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/BubbleChart.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Calendar.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Calendar.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ColorPicker.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ColorPicker.min.css">
+      <publishTime>08/23/2017 14:14:11</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ComboBox.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ComboBox.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/DropDown.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/DropDown.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.DesignPanel.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.DesignPanel.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Document.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Document.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Editor.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Editor.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.HtmlPanel.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.HtmlPanel.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Popups.AttachedTemplatePopup.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditor.Popups.AttachedTemplatePopup.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditorExtender.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/HtmlEditorExtender.min.css">
+      <publishTime>08/23/2017 14:14:10</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/LineChart.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/LineChart.min.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/MultiHandleSlider.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/MultiHandleSlider.min.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/NumericUpDown.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/NumericUpDown.min.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/PieChart.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/PieChart.min.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Slider.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Slider.min.css">
+      <publishTime>08/23/2017 14:14:09</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/SlideShow.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/SlideShow.min.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Tabs.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Tabs.min.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Twitter.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/Twitter.min.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ValidatorCallout.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/AjaxControlToolkit/Styles/ValidatorCallout.min.css">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="Content/Gridmvc.css">
+      <publishTime>08/22/2017 18:16:39</publishTime>
+    </File>
+    <File Include="cuenta/Login.aspx">
+      <publishTime>11/24/2017 08:34:45</publishTime>
+    </File>
+    <File Include="cuenta/Olvido.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="cuenta/Registro.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="datosAdicionales.aspx">
+      <publishTime>08/21/2017 14:35:16</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Documentos.aspx">
+      <publishTime>11/10/2017 11:39:37</publishTime>
+    </File>
+    <File Include="DocumentosInvalidos.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="download.aspx">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="enviar.aspx">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="enviarInv.aspx">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>08/22/2017 18:16:11</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Grid.Mvc.Ajax.readme">
+      <publishTime>08/22/2017 18:16:43</publishTime>
+    </File>
+    <File Include="Grid.mvc.readme">
+      <publishTime>08/22/2017 18:16:39</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/adv.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/adve.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/barra.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/barritas.gif">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/candadoPNG.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/D1.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/D2.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/D3.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/D4.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/D5.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/logp-dhl.jpg">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/manu.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/nuePro.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/olcon.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/paloma.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/pdf1.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/pdf2.PNG">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/tache.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/TXT.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="Imagenes-dhl/warning.png">
+      <publishTime>08/21/2017 14:35:11</publishTime>
+    </File>
+    <File Include="imagenes/1.PNG">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/4.PNG">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/adv.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/bg_home4_01.jpg">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/construccion.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/edit_delete.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/estado0.jpg">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/estado1.jpg">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/excel.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/excel24x24.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/excel32x32.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/folder_new.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/herbalife.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/hl.jpg">
+      <publishTime>10/10/2016 11:45:50</publishTime>
+    </File>
+    <File Include="imagenes/hl.png">
+      <publishTime>10/10/2016 11:45:50</publishTime>
+    </File>
+    <File Include="imagenes/info.ico">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/logo.jpg">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/mail.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/modify.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/ok-small.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/pdf.gif">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/pdf.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/pdf32x32.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/xml.gif">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/xml.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/xml32x32.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/x_small.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/zip3.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="imagenes/zip32x32.png">
+      <publishTime>08/21/2017 14:35:18</publishTime>
+    </File>
+    <File Include="manual/GlosarioErrores.aspx">
+      <publishTime>08/21/2017 14:35:19</publishTime>
+    </File>
+    <File Include="menuAdmin.aspx">
+      <publishTime>08/21/2017 14:35:20</publishTime>
+    </File>
+    <File Include="MenuNuevo.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="menuReceDHL/adminCat.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/AdminMensaje.aspx">
+      <publishTime>08/21/2017 14:35:20</publishTime>
+    </File>
+    <File Include="menuReceDHL/codigosIVA.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/ComprobantesFiscales.aspx">
+      <publishTime>03/13/2018 10:48:06</publishTime>
+    </File>
+    <File Include="menuReceDHL/ComprobantesOTM.aspx">
+      <publishTime>12/27/2017 17:14:50</publishTime>
+    </File>
+    <File Include="menuReceDHL/diasOperacion.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/GruposUsuarios.aspx">
+      <publishTime>03/08/2018 14:44:23</publishTime>
+    </File>
+    <File Include="menuReceDHL/inicio.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/interfazArc.aspx">
+      <publishTime>10/20/2017 09:45:19</publishTime>
+    </File>
+    <File Include="menuReceDHL/interfazOracle.aspx">
+      <publishTime>10/16/2017 20:21:19</publishTime>
+    </File>
+    <File Include="menuReceDHL/mensajePortal.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/menuSec.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/monedas.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/perfilEmple.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/perfilProv.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/proveedoresDhl.aspx">
+      <publishTime>03/08/2018 14:49:09</publishTime>
+    </File>
+    <File Include="menuReceDHL/receptoresCfdi.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/reportesDHL.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/solicitudes.aspx">
+      <publishTime>03/09/2018 05:28:28</publishTime>
+    </File>
+    <File Include="menuReceDHL/subirDelSAT.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/tiposProveedor.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="menuReceDHL/UsuariosDhl.aspx">
+      <publishTime>03/08/2018 14:40:54</publishTime>
+    </File>
+    <File Include="menuVal.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="newdoc.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="notificacion.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="notificacionElim.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="nuevo/autoRazon.asmx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="nuevo/autoRec.asmx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="nuevo/retencionManual.aspx">
+      <publishTime>08/21/2017 14:35:21</publishTime>
+    </File>
+    <File Include="OlvideContra.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/28/2017 10:52:19</publishTime>
+    </File>
+    <File Include="Privacidad.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Control.ConsultaCFDIService.Acuse.datasource">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Properties/DataSources/System.Xml.Linq.XElement.datasource">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="RegistrosXLS.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="RenovarContra.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="reportes/reporteSucursalesA.aspx">
+      <publishTime>10/27/2017 12:05:57</publishTime>
+    </File>
+    <File Include="ResultadoVal.aspx">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Accordion.debug.js">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AjaxFileUpload.debug.js">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AlwaysVisibleControl.debug.js">
+      <publishTime>08/23/2017 14:14:08</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Animation.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AnimationScripts.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AreaChart.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AsyncFileUpload.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/AutoComplete.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/BalloonPopup.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/BarChart.debug.js">
+      <publishTime>08/23/2017 14:14:07</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/BaseScripts.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/BubbleChart.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Calendar.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/CascadingDropDown.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/CollapsiblePanel.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ColorPicker.debug.js">
+      <publishTime>08/23/2017 14:14:06</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ComboBox.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Common.DateTime.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Common.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Common.Threading.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Compat.DragDrop.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Compat.Timer.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ComponentSet.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ConfirmButton.debug.js">
+      <publishTime>08/23/2017 14:14:05</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/DraggableListItem.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/DropDown.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/DropShadow.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/DropWatcher.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/DynamicPopulate.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/FilteredTextBox.debug.js">
+      <publishTime>08/23/2017 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/FloatingBehavior.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Hover.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HoverMenu.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.DesignPanel.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.DesignPanelEventHandler.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Editor.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.EditPanel.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Enums.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Events.debug.js">
+      <publishTime>08/23/2017 14:14:03</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ExecCommandEmulation.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.HtmlEditor.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.HtmlPanel.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ModePanel.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.AttachedPopup.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.AttachedTemplatePopup.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.BaseColorsPopup.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.LinkProperties.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.OkCancelAttachedTemplatePopup.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.Popup.debug.js">
+      <publishTime>08/23/2017 14:14:02</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.PopupBGIButton.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.PopupBoxButton.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Popups.PopupCommonButton.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.PreviewPanel.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.Toolbar.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.BackColorClear.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.BackColorSelector.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Bold.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.BoxButton.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.BulletedList.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ColorButton.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ColorSelector.debug.js">
+      <publishTime>08/23/2017 14:14:01</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.CommonButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Copy.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Cut.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DecreaseIndent.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DesignMode.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DesignModeBoxButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DesignModeImageButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DesignModePopupImageButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.DesignModeSelectButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.EditorToggleButton.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.FixedBackColor.debug.js">
+      <publishTime>08/23/2017 14:14:00</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.FixedColorButton.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.FixedForeColor.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.FontName.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.FontSize.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ForeColor.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ForeColorClear.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ForeColorSelector.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.HorizontalSeparator.debug.js">
+      <publishTime>08/23/2017 14:13:59</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.HtmlMode.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ImageButton.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.IncreaseIndent.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.InsertHR.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.InsertLink.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Italic.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.JustifyCenter.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.JustifyFull.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.JustifyLeft.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.JustifyRight.debug.js">
+      <publishTime>08/23/2017 14:13:58</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Ltr.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.MethodButton.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.ModeButton.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.OkCancelPopupButton.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.OrderedList.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Paragraph.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Paste.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.PasteText.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.PasteWord.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.PreviewMode.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Redo.debug.js">
+      <publishTime>08/23/2017 14:13:57</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.RemoveAlignment.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.RemoveLink.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.RemoveStyles.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Rtl.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.SelectButton.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Selector.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.StrikeThrough.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.SubScript.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.SuperScript.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Underline.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditor.ToolbarButtons.Undo.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/HtmlEditorExtender.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/LineChart.debug.js">
+      <publishTime>08/23/2017 14:13:56</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ListSearch.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.ar.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.cs.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.de.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.es.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.fr.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.he.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.hi.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.it.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.ja.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.ko.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.nl.debug.js">
+      <publishTime>08/23/2017 14:13:55</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.pl.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.pt.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.ru.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.tr.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.zh-CHS.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Localization.Resources.zh-CHT.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/MaskedEdit.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/MaskedEditValidator.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ModalPopup.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/MultiHandleSlider.debug.js">
+      <publishTime>08/23/2017 14:13:54</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/MutuallyExclusiveCheckBox.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/NoBot.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/NumericUpDown.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/PagingBulletedList.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/PasswordStrength.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/PieChart.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Popup.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/PopupControl.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Rating.debug.js">
+      <publishTime>08/23/2017 14:13:53</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ResizableControl.debug.js">
+      <publishTime>08/23/2017 14:13:52</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/RoundedCorners.debug.js">
+      <publishTime>08/23/2017 14:13:52</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Seadragon.debug.js">
+      <publishTime>08/23/2017 14:13:52</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Slider.debug.js">
+      <publishTime>08/23/2017 14:13:52</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/SlideShow.debug.js">
+      <publishTime>08/23/2017 14:13:52</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/Tabs.debug.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/TextBoxWatermark.debug.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ToggleButton.debug.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/UpdatePanelAnimation.debug.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Debug/ValidatorCallout.debug.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Accordion.js">
+      <publishTime>08/23/2017 14:13:51</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AjaxFileUpload.js">
+      <publishTime>08/23/2017 14:13:50</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AlwaysVisibleControl.js">
+      <publishTime>08/23/2017 14:13:50</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Animation.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AnimationScripts.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AreaChart.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AsyncFileUpload.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/AutoComplete.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/BalloonPopup.js">
+      <publishTime>08/23/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/BarChart.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/BaseScripts.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/BubbleChart.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Calendar.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/CascadingDropDown.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/CollapsiblePanel.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ColorPicker.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ComboBox.js">
+      <publishTime>08/23/2017 14:13:48</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Common.DateTime.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Common.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Common.Threading.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Compat.DragDrop.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Compat.Timer.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ComponentSet.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ConfirmButton.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/DraggableListItem.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/DropDown.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/DropShadow.js">
+      <publishTime>08/23/2017 14:13:47</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/DropWatcher.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/DynamicPopulate.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/FilteredTextBox.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/FloatingBehavior.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Hover.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HoverMenu.js">
+      <publishTime>08/23/2017 14:13:46</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.DesignPanel.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.DesignPanelEventHandler.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Editor.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.EditPanel.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Enums.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Events.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ExecCommandEmulation.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.HtmlEditor.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.HtmlPanel.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ModePanel.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.AttachedPopup.js">
+      <publishTime>08/23/2017 14:13:45</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.AttachedTemplatePopup.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.BaseColorsPopup.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.LinkProperties.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.OkCancelAttachedTemplatePopup.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.Popup.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.PopupBGIButton.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.PopupBoxButton.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Popups.PopupCommonButton.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.PreviewPanel.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.Toolbar.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.BackColorClear.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.BackColorSelector.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Bold.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.BoxButton.js">
+      <publishTime>08/23/2017 14:13:44</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.BulletedList.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ColorButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ColorSelector.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.CommonButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Copy.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Cut.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DecreaseIndent.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DesignMode.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DesignModeBoxButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DesignModeImageButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DesignModePopupImageButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.DesignModeSelectButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.EditorToggleButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.FixedBackColor.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.FixedColorButton.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.FixedForeColor.js">
+      <publishTime>08/23/2017 14:13:43</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.FontName.js">
+      <publishTime>08/23/2017 14:13:42</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.FontSize.js">
+      <publishTime>08/23/2017 14:13:42</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ForeColor.js">
+      <publishTime>08/23/2017 14:13:42</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ForeColorClear.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ForeColorSelector.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.HorizontalSeparator.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.HtmlMode.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ImageButton.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.IncreaseIndent.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.InsertHR.js">
+      <publishTime>08/23/2017 14:13:41</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.InsertLink.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Italic.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.JustifyCenter.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.JustifyFull.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.JustifyLeft.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.JustifyRight.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Ltr.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.MethodButton.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.ModeButton.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.OkCancelPopupButton.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.OrderedList.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Paragraph.js">
+      <publishTime>08/23/2017 14:13:40</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Paste.js">
+      <publishTime>08/23/2017 14:13:39</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.PasteText.js">
+      <publishTime>08/23/2017 14:13:39</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.PasteWord.js">
+      <publishTime>08/23/2017 14:13:39</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.PreviewMode.js">
+      <publishTime>08/23/2017 14:13:39</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Redo.js">
+      <publishTime>08/23/2017 14:13:39</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.RemoveAlignment.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.RemoveLink.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.RemoveStyles.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Rtl.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.SelectButton.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Selector.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.StrikeThrough.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.SubScript.js">
+      <publishTime>08/23/2017 14:13:38</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.SuperScript.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Underline.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditor.ToolbarButtons.Undo.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/HtmlEditorExtender.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/LineChart.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ListSearch.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.ar.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.cs.js">
+      <publishTime>08/23/2017 14:13:37</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.de.js">
+      <publishTime>08/23/2017 14:13:36</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.es.js">
+      <publishTime>08/23/2017 14:13:36</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.fr.js">
+      <publishTime>08/23/2017 14:13:36</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.he.js">
+      <publishTime>08/23/2017 14:13:36</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.hi.js">
+      <publishTime>08/23/2017 14:13:33</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.it.js">
+      <publishTime>08/23/2017 14:13:33</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.ja.js">
+      <publishTime>08/23/2017 14:13:32</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.js">
+      <publishTime>08/23/2017 14:13:29</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.ko.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.nl.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.pl.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.pt.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.ru.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.tr.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.zh-CHS.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Localization.Resources.zh-CHT.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/MaskedEdit.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/MaskedEditValidator.js">
+      <publishTime>08/23/2017 14:13:27</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ModalPopup.js">
+      <publishTime>08/23/2017 14:13:26</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/MultiHandleSlider.js">
+      <publishTime>08/23/2017 14:13:26</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/MutuallyExclusiveCheckBox.js">
+      <publishTime>08/23/2017 14:13:26</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/NoBot.js">
+      <publishTime>08/23/2017 14:13:26</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/NumericUpDown.js">
+      <publishTime>08/23/2017 14:13:25</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/PagingBulletedList.js">
+      <publishTime>08/23/2017 14:13:23</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/PasswordStrength.js">
+      <publishTime>08/23/2017 14:13:23</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/PieChart.js">
+      <publishTime>08/23/2017 14:13:23</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Popup.js">
+      <publishTime>08/23/2017 14:13:23</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/PopupControl.js">
+      <publishTime>08/23/2017 14:13:23</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Rating.js">
+      <publishTime>08/23/2017 14:13:22</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ResizableControl.js">
+      <publishTime>08/23/2017 14:13:22</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/RoundedCorners.js">
+      <publishTime>08/23/2017 14:13:22</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Seadragon.js">
+      <publishTime>08/23/2017 14:13:22</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Slider.js">
+      <publishTime>08/23/2017 14:13:21</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/SlideShow.js">
+      <publishTime>08/23/2017 14:13:21</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/Tabs.js">
+      <publishTime>08/23/2017 14:13:21</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/TextBoxWatermark.js">
+      <publishTime>08/23/2017 14:13:20</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ToggleButton.js">
+      <publishTime>08/23/2017 14:13:20</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/UpdatePanelAnimation.js">
+      <publishTime>08/23/2017 14:13:20</publishTime>
+    </File>
+    <File Include="Scripts/AjaxControlToolkit/Release/ValidatorCallout.js">
+      <publishTime>08/23/2017 14:13:19</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc-ext.js">
+      <publishTime>08/22/2017 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc.js">
+      <publishTime>08/22/2017 18:16:39</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc.lang.fr.js">
+      <publishTime>08/22/2017 18:16:39</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc.lang.pt.js">
+      <publishTime>08/22/2017 18:16:38</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc.lang.ru.js">
+      <publishTime>08/22/2017 18:16:38</publishTime>
+    </File>
+    <File Include="Scripts/gridmvc.min.js">
+      <publishTime>08/22/2017 18:16:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>08/21/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="Scripts/URI.js">
+      <publishTime>08/22/2017 18:16:43</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>01/25/2017 12:29:48</publishTime>
+    </File>
+    <File Include="Soporte.aspx">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="StylesEx.css">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="subirXLS.aspx">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="UserControl/filesUpload.ascx">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="UserControl/multiFileUpload.ascx">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="Validar.aspx">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="validarFacturas.aspx">
+      <publishTime>02/18/2018 22:36:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_AjaxGridPager.cshtml">
+      <publishTime>08/22/2017 18:16:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_Grid.cshtml">
+      <publishTime>08/22/2017 18:16:38</publishTime>
+    </File>
+    <File Include="Views/Shared/_GridPager.cshtml">
+      <publishTime>08/22/2017 18:16:38</publishTime>
+    </File>
+    <File Include="Web References/GInterComp/Reference.map">
+      <publishTime>10/17/2017 01:54:57</publishTime>
+    </File>
+    <File Include="Web References/WebServiceInterfaz/Reference.map">
+      <publishTime>08/21/2017 14:35:13</publishTime>
+    </File>
+    <File Include="Web References/wsRetenciones/Reference.map">
+      <publishTime>08/21/2017 14:35:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/26/2018 14:12:37</publishTime>
+    </File>
+    <File Include="ws/recepcion.asmx">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="ws/RecepcionSAT.asmx">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="ws/Retenciones.asmx">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="xslt/cadenaoriginal_2_0.xslt">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="xslt/cadenaoriginal_2_2.xslt">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="xslt/cadenaoriginal_3_2.xslt">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+    <File Include="xslt/cadenaoriginal_TFD_1_0.xslt">
+      <publishTime>08/21/2017 14:35:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

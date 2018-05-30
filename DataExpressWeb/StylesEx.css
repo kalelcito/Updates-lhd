@@ -1,0 +1,145 @@
+﻿ul,li,body
+{
+     margin:0;
+     padding:0;
+}
+
+/* MultiView Tab Using Menu Control */
+
+.tabs
+    {
+    position:relative;
+    top:1px;       
+    z-index:2;     
+    }
+
+    .tab
+    {
+        border:1px solid black;
+        background-image:url(images/navigation.jpg);
+        background-repeat:repeat-x;
+        color:#ffcc00;       
+        padding:2px 10px; 
+    }
+
+ .selectedtab
+    {
+    background:none;
+    background-repeat:repeat-x;
+    color:black; 
+   }
+
+.tabcontents
+    {
+
+    padding:10px;
+    width:1189px;
+    height:500px;  
+    background-color:#ffcc00;      
+    }
+           
+    div.menu 
+   {
+    padding: 4px 0px 4px 8px;
+   }
+
+div.menu  ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited 
+{
+    background-color: #d40511;
+    border-style:  outset;
+    border-width:  thin;
+    border-color:Black;
+    color: #FFFFFF;
+    /*display: block;*/
+    line-height: 1.35em;
+    padding: 4px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size:12px;
+}
+
+
+div.menu ul li a:hover  /*cambio d color*/
+{
+    background-color:#d40511;
+    border-style: outset;
+    border-width: thin;
+    border-color:Black;
+    /*background-color: #bfcbd6;*/
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+div.menu2 ul li a, div.menu2 ul li a:visited 
+{
+    background-color: #ffcc00;
+    border-style:  outset;
+    border-width:  thin;
+    border-color:Black;
+    color: #000000;
+    /*display: block;*/
+    line-height: 1.35em;
+    padding: 4px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size:10px;
+}
+
+ div.menu2
+   {
+    padding: 4px 0px 4px 8px;
+   }
+
+div.menu2  ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu2 ul li a:hover  /*cambio d color*/
+{
+    background-color:#ffcc00;
+    border-style: outset;
+    border-width: thin;
+    border-color:Black;
+    /*background-color: #bfcbd6;*/
+    color: #d40511;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.image
+{
+    
+}
+
+.Button
+{
+   background-position:center;
+}
+
+
+
+div.menu ul li a:active
+{
+    background-color:#FFC900;
+    /*background-color: #465c71;*/
+    color: #e30304;
+    text-decoration: none;
+}

@@ -1,0 +1,1 @@
+1.- System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.   en Datos.BasesDatos.Desconectar() en G:\ReceDHL\recepDHL\Datos\BasesDatos.cs:línea 78   en DataExpressWeb.Formulario_web112.hlInter_Click(Object sender, EventArgs e)

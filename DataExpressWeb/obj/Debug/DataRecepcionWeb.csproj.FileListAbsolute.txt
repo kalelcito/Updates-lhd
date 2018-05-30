@@ -1,0 +1,136 @@
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll.config
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.XmlSerializers.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\AjaxControlToolkit.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\ClosedXML.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CodeQR.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\Control.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\Datos.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\diCrSysPKINet.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\LoadXlsOTM.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\SAT.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\validacion.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\ThoughtWorks.QRCode.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.Shared.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportSource.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\Crypto.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\EPPlus.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\stdole.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\CodeQR.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\Control.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\Datos.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\SAT.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\validacion.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\LoadXlsOTM.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\ClosedXML.xml
+G:\ReceDHL\recepDHL\DataExpressWeb\bin\EPPlus.xml
+G:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataRecepcionWeb.csprojResolveAssemblyReference.cache
+G:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.dll
+G:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.pdb
+G:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.XmlSerializers.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll.config
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.XmlSerializers.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\DataExpressWeb.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\AjaxControlToolkit.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\ClosedXML.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CodeQR.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\Control.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\Datos.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\diCrSysPKINet.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\LoadXlsOTM.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\SAT.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\validacion.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\ThoughtWorks.QRCode.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.CrystalReports.Engine.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.Shared.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportSource.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\Crypto.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\EPPlus.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CodeQR.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\Control.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\Datos.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\SAT.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\validacion.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\LoadXlsOTM.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\ClosedXML.xml
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\EPPlus.xml
+H:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataRecepcionWeb.csprojResolveAssemblyReference.cache
+H:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.pdb
+H:\ReceDHL\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.XmlSerializers.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+H:\ReceDHL\recepDHL\DataExpressWeb\bin\stdole.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll.config
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\DataExpressWeb.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\DataExpressWeb.XmlSerializers.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\DataExpressWeb.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\ClosedXML.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CodeQR.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Control.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Datos.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\LoadXlsOTM.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\SAT.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\validacion.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\ThoughtWorks.QRCode.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.Shared.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportSource.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Crypto.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\EPPlus.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\stdole.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\CodeQR.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Control.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Control.dll.config
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Datos.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\Datos.dll.config
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\SAT.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\validacion.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\LoadXlsOTM.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\LoadXlsOTM.dll.config
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\LoadXlsOTM.exe.config
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\ClosedXML.xml
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\bin\EPPlus.xml
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataRecepcionWeb.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataRecepcionWeb.csproj.CoreCompileInputs.cache
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataRecepcionWeb.csproj.CopyComplete
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.dll
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.pdb
+C:\Users\cesar\Documents\Visual Studio 2017\data\recepDHL\DataExpressWeb\obj\Debug\DataExpressWeb.XmlSerializers.dll

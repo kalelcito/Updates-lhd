@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sello
+</name>
+</assembly>
+<members>
+<member name="P:Sello.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Sello.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:Sello.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Sello.SelloDigital">
+	<summary>
+ *******************************************************************
+ ************       Transportación México Express       ************
+ ************          Sistema Local Infactmex          ************
+ *******************************************************************
+ ************ ---   DR México Express S.A. de C.V   --- ************
+ *******************************************************************
+ *******************************************************************
+ ************         Nombre: selloDigital.vb           ************
+ ************            Tipo: Lireria                  ************
+ *******************************************************************
+ 
+ Clase que procesa la cadena original para crear su Sello Digital
+ 1- Obtiene la cadena original
+ 2- Se encripta con el Certificado Digital
+ 3- Genera su Hash (MD5 o SHA1 o SHA254)
+ 4- crea el Sello Digital
+ 
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,391 @@
+FCC|Nombre Site|Nombre Cliente|Cliente|Sector|Nombre Completo Financiero|User Mark View|Correo|Ext o Tel|FINANCE PARTNER|Otro
+1029|||1015|CONSUMER|CLAUDIA ENRIQUETA CANTO TORIZ|CCANTOT|claudia.cantot@dhl.com||OMAR ISARAEL PALMA RODRIGUEZ|
+1031|||1002|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1011|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1023|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1045|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1031|||1047|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1031|||1110|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1031|||1130|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1170|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1196|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1208|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1031|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1031|||1314|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1473|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1474|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1503|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1506|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||1514|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||4616|Chemical|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||5021|Retail|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1031|||5050|Retail|GARZA TAMEZ ORLANDO ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1031|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1051|||1015|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1059|||1356|CONSUMER|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||Antonio Garcia|
+1062|||1190|CONSUMER|PACO SANTACRUZ CESAR FRANCISCO|CFPACO|Cesar.PacoSantacruz@dhl.com||Antonio Garcia|
+1062|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1076|||1356|CONSUMER|LORENA TAPIA|LTAPIA|lorena.tapia@dhl.com||Antonio Garcia|
+1086|||1549|CONSUMER|ROJAS RODRIGUEZ LILIANA|LROJASRO|liliana.rojasrodriguez@dhl.com||Silva Escutia Mauricio|
+1103|||1002|CONSUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Raul Garcia|
+1103|||1182|CONSUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Ana Gabriela Rojas|
+1103|||1314|CONCUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Antonio Garcia|
+1103|||1510|CONSUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Ana Gabriela Rojas|
+1112|||1473|CONSUMER|HERNANDEZ ENRIQUEZ MONICA|MHERNANDEZE|monica.hernandeze@dhl.com|||
+1114|||1473|CONSUMER|HERNANDEZ ENRIQUEZ MONICA|MHERNANDEZE|monica.hernandeze@dhl.com|||
+1122|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1172|||1506|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+1229|||3026|CONSUMER|ANA JANNET GARITA JIMENEZ |JGARITAJ|jannet.garitaj@dhl.com||Leopoldo Obregon Fernandez|
+1289|||1190|CONSUMER|PACO SANTACRUZ CESAR FRANCISCO|CFPACO|cesar.pacosantacruz@dhl.com||Ricardo Angeles|
+1297|||1248|CONSUMER|RICARDO SANTANA TORRES|RISANTAN|r.santana@dhl.com||HERNANDEZ HERNANDEZ ADALBERTO|
+1304|||1025|CONSUMER|ENRIQUEZ GARCIA CLAUDIA|CENRIQU4|claudia.enriquez@dhl.com||RIOS TEJEDA FRANCISCO NIVARDO|
+1339|||1526|CONSUMER|Ruiz Garcia Alejandra|ARUIZ|alejandra.ruizgarcia@dhl.com||Manuel Rodriguez|
+1512|||1002|CONSUMER|GARZA TAMEZ ORLANDO  ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1512|||1047|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1512|||1190|CONSUMER|GARZA TAMEZ ORLANDO  ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1512|||1196|CONSUMER|GARZA TAMEZ ORLANDO  ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1512|||1220|CONSUMER|GARZA TAMEZ ORLANDO ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1512|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1512|||1526|CONSUMER|GARZA TAMEZ ORLANDO  ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1512|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1514|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1517|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1608|||1419|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Maria PeredaS|
+1647|||1190|CONSUMER|PACO SANTACRUZ CESAR FRANCISCO|CPACOSAN|cesar.pacosantacruz@dhl.com||Ricardo Angeles|
+1648|||1190|CONSUMER|PACO SANTACRUZ CESAR FRANCISCO|CPACOSAN|cesar.pacoSantacruz@dhl.com||Arturo Fabela Silva|
+1701|||1002|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1701|||1011|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1701|||1017|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1701|||1170|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1701|||1186|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1701|||1302|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1701|||1358|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1701|||1500|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1701|||1503|CONSUMER|TAPIA CASTRO LORENA |LOTAPIA |lorena.tapia@dhl.com||Antonio Garcia|
+1701|||1518|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1701|||5076|Retail|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||Antonio Garcia|
+1702|||1002|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1702|||1011|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1702|||1196|CONSUMER|CORDOVA HERNANDEZ ARELI ARIANA|ACORDOVA|areli.cordova@dhl.com||Antonio Garcia|
+1702|||1208|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1702|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1702|||1302|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1702|||1476|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|
+1702|||1506|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Lira Maqueda Luis Fernando|
+1702|||1518|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1702|||5068|Retail|HERNANDEZ LOPEZ CLAUDIA|CLAUDIHE|claudia.hernandezb@dhl.com||Lira Maqueda Luis Fernando|
+1702|||8887|SPL|VALADEZ ARENAS MARIA CRISTINA |CVALADEZ|cristina.valadez@dhl.com||Manuel Rodriguez|
+1702|||8987|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+1706|||1002|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1047|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1706|||1170|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1172|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1706|||1186|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1706|||1190|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1196|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1208|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1706|||1314|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1356|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1393|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Ricardo Angeles|
+1706|||1473|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1474|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1506|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1514|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1526|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||1539|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1706|||1549|CONSUMER|ROJAS RODRIGUEZ LILIANA|LROJASRO|liliana.rojasrodriguez@dhl.com||Silva Escutia Mauricio|
+1706|||1570|CONSUMER|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Antonio Garcia|
+1706|||4009|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgado Ulloa|
+1706|||4475|Chemical|SANDOVAL MARQUEZ MARIA LILIA|MLSANDOVAL|Lilia.SandovalMarquez@dhl.com||Edgado Ulloa|
+1706|||4616|Chemical|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Edgado Ulloa|
+1706|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1706|||6227|Technology|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Manuel Rodriguez|
+1709|||1170|CONSUMER|ESPINOSA VAZQUEZ ADRIANA|ADRESPIN|adriana.espinosa@dhl.com||Antonio Garcia|No tiene usuario propio
+1709|||1549|CONSUMER|ROJAS RODRIGUEZ LILIANA|LROJASRO|liliana.rojasrodriguez@dhl.com||Silva Escutia Mauricio|
+1710|||1002|CONSUMER|GARZA TAMEZ ORLANDO ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1710|||1007|CONSUMER|GARZA TAMEZ ORLANDO ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||JOSE LUIS CARPIO LOPEZ|
+1710|||1015|CONSUMER|CANTO TORIZ CLAUDIA ENRIQUETA|CCANTOT|claudia.cantot@dhl.com||Antonio Garcia|
+1710|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1712|||1002|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1170|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1172|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1712|||1190|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1196|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1208|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1712|||1314|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1473|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1506|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1526|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1539|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1712|||1541|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||1620|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1712|||5040|Retail|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1002|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1047|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1713|||1170|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1190|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1208|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1713|||1314|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1473|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1506|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1526|CONSUMER|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+1713|||1539|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1713|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1714|||1220|CONSUMER|LOPEZ AVINA MARIA DEL SOL RAQUEL|SLOPEZ1|Sol.lopez@dhl.com||Manuel Rodriguez|
+1715|||1201|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1715|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1715|||1473|CONSUMER|LOPEZ AVINA MARIA DEL SOL RAQUEL|SLOPEZ|Sol.lopez@dhl.com||Manuel Rodriguez|
+1716|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1717|||1002|CONSUMER|ARZATE MORALES LILIANA|LARZATEM|Liliana.Arzatem@dhl.com||Salvador Carmona|
+1717|||1015|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1047|CONSUMER|LILIANA ROJAS RODRIGUEZ|LROJASRO|Liliana.RojasRodriguez@dhl.com||CORTES MOLINA JOSE ANTONIO|
+1717|||1110|CONSUMER|ARZATE MORALES LILIANA|LARZATEM|Liliana.Arzatem@dhl.com||Salvador Carmona|
+1717|||1130|CONSUMER|MIRIAM COLIN  VALENCIA|MICOLIN|miriam.colin@dhl.com||Samir Sayeg|
+1717|||1172|CONSUMER|ARZATE MORALES LILIANA|LARZATEM|Liliana.Arzatem@dhl.com||Salvador Carmona|
+1717|||1173|CONSUMER|ROBLEDO VERA JULIO CESAR|JROBLEDO|juliocesar.robledo@dhl.com||Antonio Garcia|
+1717|||1201|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1717|||1208|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1717|||1212|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1258|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1314|CONSUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Manuel Rodriguez|
+1717|||1371|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Manuel Rodriguez|
+1717|||1392|CONSUMER|ROBLEDO VERA JULIO CESAR|JROBLEDO|juliocesar.robledo@dhl.com||Antonio Garcia|
+1717|||1434|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1492|CONSUMER|CECILIA IVONNE FLORES VARGAS|CFLORESV|cecilia.floresv@dhl.com||Juan Juarez Rosas|
+1717|||1504|CONSUMER|ARZATE MORALES LILIANA|LARZATEM|Liliana.Arzatem@dhl.com||Salvador Carmona|
+1717|||1539|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1717|||1997|CONSUMER|ALIN ANGELICA ESTRADA CORONADO|Angestra|angelica.estradac@dhl.com||HERNANDEZ GOMEZ RICARDO|
+1717|||4009|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgado Ulloa|
+1717|||5033|Retail|HERNANDEZ LOPEZ CLAUDIA|CLAUDIHE|claudia.hernandezb@dhl.com||Duran Velazquez Antonio|
+1717|||5061|Retail|HERNANDEZ LOPEZ CLAUDIA|CLAUDIHE|claudia.hernandezb@dhl.com||Vidal Reyna Maria Eugenia|
+1717|||5129|Retail|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||Antonio Garcia|
+1717|||6038|Technology|CESAR FLORES GERARDO|GCESARF|gerardo.cesarf@dhl.com||Mendez Fuentes Graciela|
+1717|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+1720|||1306|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1333|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1398|LS|ALVAREZ FLORES ARELI|AALVAREZ|areli.alvarez@dhl.com||Maria PeredaS|
+1720|||1400|LS|GARCIA MAYA SUSANA|SGARCIA|susana.garcia.maya@dhl.com||Maria PeredaS|
+1720|||1402|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1404|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1414|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Maria PeredaS|
+1720|||1443|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1449|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1450|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Maria PeredaS|
+1720|||1466|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1720|||1508|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1513|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1515|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1527|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1528|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1531|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Maria PeredaS|
+1720|||1535|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1720|||1536|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Compras|
+1720|||1548|LS|GANDARIAS GONZALEZ MARIA DEL ROCIO|RGANDARIAS|rocio.gandarias@dhl.com||Compras|
+1721|||1067|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1379|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1384|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1398|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1400|LS|GARCIA MAYA SUSANA|SGARCIA|susana.garcia.maya@dhl.com||Soledad Pereda|
+1721|||1402|LS|GARCIA MAYA SUSANA|SGARCIA|susana.garcia.maya@dhl.com||Soledad Pereda|
+1721|||1443|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1481|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||1530|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Soledad Pereda|
+1721|||3097|Automotive|TORRES MONTIEL MANUEL|MTORRESM|manuel.torresmontiel@dhl.com||Edgardo Ulloa|
+1721|||3110|Automotive|ELIZABETH HERNANDEZ PAREDES|EHERNANDEZ|elizabeth.hernandezp@dhl.com||Edgado Ulloa|
+1721|||3352|Automotive|TORRES MONTIEL MANUEL|MTORRESM|manuel.torresmontiel@dhl.com||Edgardo Ulloa|
+1721|||5028|Retail|HERNANDEZ LOPEZ CLAUDIA|CLAUDIHE|claudia.hernandezb@dhl.com||Valencia Lugo Carlos Francisco|
+1721|||5061|Retail|SERRANO SANCHEZ TANIA STEFANY|TANSERRA|tania.serranosanchez@dhl.com||Adrian Regalado|
+1721|||5308|Retail|HERNANDEZ LOPEZ CLAUDIA|CHAUDIHE|Claudia.HernandezB@dhl.com||Valencia Lugo Carlos Francisco|
+1721|||6069|Technology|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+1790|||1002|CONSUMER|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Antonio Garcia|
+1790|||1015|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+1790|||1080|CONSUMER|ALEJANDRO FLORES PEZA|AFLORESP|alejandro.floresp@dhl.com||PALMA RODRIGUEZ OMAR ISRAEL|
+1790|||1201|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+1790|||1212|CONSUMER|ALEJANDRO FLORES PEZA|AFLORESP|alejandro.floresp@dhl.com||PEREZ MARTINEZ ISRAEL|
+1790|||1314|CONSUMER|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Manuel Rodriguez|
+1790|||1434|CONSUMER|ALEJANDRO FLORES PEZA|AFLORESP|alejandro.floresp@dhl.com||PEREZ MARTINEZ ISRAEL|
+1790|||1539|CONSUMER|ALEJANDRO FLORES PEZA|AFLORESP|alejandro.floresp@dhl.com||PEREZ MARTINEZ ISRAEL|
+1790|||1541|CONSUMER|ROJAS RODRIGUEZ LILIANA|LROJASRO|liliana.rojasrodriguez@dhl.com||Manuel Rodriguez|
+1790|||1577|CONSUMER|CECILIA IVONNE FLORES VARGAS|CFLORESV|cecilia.floresv@dhl.com||Eduardo Osorio Rios|
+1790|||1579|CONSUMER|MONICA GABRIELA MORENO GALVAN|MMORENOG|monica.morenogalvan@dhl.com||Jesus Manuel Fernandez Ricano|
+1790|||1593|CONSUMER|MONICA GABRIELA MORENO GALVAN|MMORENOG|monica.morenogalvan@dhl.com||Jesus Manuel Fernandez Ricano|
+1790|||1620|CONSUMER|MONICA GABRIELA MORENO GALVAN|MMORENOG|monica.morenogalvan@dhl.com||Jesus Manuel Fernandez Ricano|
+1790|||4062|Chemical|SANDOVAL MARQUEZ MARIA LILIA|MLSANDOVAL|Lilia.SandovalMarquez@dhl.com||Edgardo Ulloa|
+1790|||4068|Chemical|SANDOVAL MARQUEZ MARIA LILIA|MLSANDOVAL|Lilia.SandovalMarquez@dhl.com||Edgardo Ulloa|
+1790|||8185|SPL|MORENO GALVAN MONICA GABRIELA|MMORENOG|Monica.MorenoGalvan@dhl.com||DIAZ APARICIO OSCAR ANDRES|
+1791|||1002|CONSUMER|GARZA TAMEZ ORLANDO ALEJANDRO|OGARZATA|orlando.garzatamez@dhl.com||Antonio Garcia|
+1797|||1025|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Antonio Garcia|
+1797|||1156|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Antonio Garcia|
+1797|||1220|CONSUMER|FLORENTINO MONROY ESTHER |EMONROY|esther.florentinom@dhl.com||Manuel Rodriguez|
+1797|||1389|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Antonio Garcia|
+1797|||1402|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Compras|
+1797|||1419|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Compras|
+1797|||1551|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Compras|
+1797|||5071|Retail|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Antonio Garcia|
+1797|||6308|Technology|CESAR FLORES GERARDO|GCESARF|gerardo.cesarf@dhl.com||Manuel Rodriguez|
+1860|||1002|CONSUMER|ANTONIO GARCIA SALDANA|ANTOGARC|antonio.garcia4@dhl.com||Antonio Garcia|
+3023|||3110|Automotive|ELIZABETH HERNANDEZ PAREDES|EHERNANDEZ|elizabeth.hernandezp@dhl.com||Edgado Ulloa|
+3084|||4009|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgado Ulloa|
+3089|||1474|CONSUMER|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||Antonio Garcia|
+3180|||3071|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgardo Ulloa|
+3181|||3071|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgardo Ulloa|
+3182|||3071|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgardo Ulloa|
+3182|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+3266|||3098|Automotive|TORRES MONTIEL MANUEL|MMONTIEL|manuel.torresmontiel@dhl.com||Edgado Ulloa|
+3270|||3022|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgado Ulloa|
+3271|||3022|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgado Ulloa|
+3275|||3026|Automotive|GARITA JIMENEZ ANA JANNET|JGARITAJ|jannet.garitaj@dhl.com||Edgado Ulloa|
+3275|||3351|Automotive|GARITA JIMENEZ ANA JANNET|JGARITAJ|jannet.garitaj@dhl.com||Edgado Ulloa|
+3334|||3364|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Edgado Ulloa|
+3398|||3026|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgardo Ulloa|
+3421|||3002|Automotive|BUSTILLOS CRISTALES MARIA DEL CONSUELO|CAB7601|consuelo.bustillos@dhl.com||Edgardo Ulloa|
+3438|||3310|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+3439|||3352|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+3472|||3112|Automotive|TORRES MONTIEL MANUEL|MMONTIEL|manuel.torresmontiel@dhl.com||Edgado Ulloa|
+3475|||3100|Automotive|VILLEGAS GRACIANO ALEXANDRA|ALEVILLEGAS|alexandra.villegasg@dhl.com||Edgado Ulloa|
+3479|||3094|Automotive|HERNANDEZ PAREDES ELIZABETH|EELHERNA|elizabeth.hernandezp@dhl.com||Edgardo Ulloa|
+3483|||3101|Automotive|TORRES MONTIEL MANUEL|MMONTIEL|manuel.torresmontiel@dhl.com||Edgardo Ulloa|
+3486|||3089|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+3487|||3089|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+3490|||3060|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Alan Garcia|
+3495|||3354|Automotive|ESCOBAR VELAZQUEZ MAGDALENA ALEJANDRA|ALEJESCO|alejandra.escobarv@dhl.com||Alan Garcia|
+3496|||3026|Automotive|GARITA JIMENEZ ANA JANNET|JGARITAJ|jannet.garitaj@dhl.com||Consuelo Bustillos|
+3498|||3310|Automotive|CASTANON CHENA EDGAR|ECHENA|edgar.castaneda.chena@dhl.com||Hugo Ruiz Alonso|
+4012|||4031|Chemical|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Edgardo Ulloa|
+4012|||4616|Chemical|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Edgardo Ulloa|
+4017|||4616|Chemical|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Edgado Ulloa|
+4043|||4125|Chemical|SANDOVAL MARQUEZ MARIA LILIA|LISANDOV|Lilia.SandovalMarquez@dhl.com||Edgardo Ulloa|
+4056|||4210|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgardo Ulloa|
+4096|||4096|Chemical|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+4149|||4475|Chemical|SANDOVAL MARQUEZ MARIA LILIA|LISANDOV|Lilia.SandovalMarquez@dhl.com||Martinez Cabrera Dante|
+4211|||3026|Automotive|GARITA JIMENEZ ANA JANNET|JGARITAJ|jannet.garitaj@dhl.com||Edgado Ulloa|
+5001|||5001|Retail|RICARDO SANTANA TORRES|RISANTAN|r.santana@dhl.com||HERNANDEZ HERNANDEZ ADALBERTO|
+5062|||5021|Retail|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+5066|||5040|Retail|PORTILLO PENICHE BEATRIZ ALEJANDRA|BPORTILLO|beatriz.portillo@dhl.com||Antonio Garcia|
+5139|||5069|Retail|TRUJILLO BARETE NALLELY|NBARETET|Nallely.BareteT@dhl.com||Antonio Garcia|
+5151|||5221|Retail|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||Antonio Garcia|
+5178|||5002|Retail|HERNANDEZ LOPEZ CLAUDIA|CLAUDIHE|claudiahernandezb@dhl.com||Martinez Salinas Enrique|
+5825|||5002|Retail|SANTANA TORRES RICARDO|RISANTAN|r.santana@dhl.com||CARLOS FRANCISCO VALENCIA|
+6007|||6193|Technology|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||DOMINGUEZ HARO ROMAN ABRAHAM|
+6025|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6026|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6039|||6036|Technology|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Adan Becerril Tapia|
+6039|||6046|Technology|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+6039|||8735|Technology|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||DIEP QUINTANAR ALEJANDRO|
+6049|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6052|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6053|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6057|||6002|Technology|CESAR FLORES GERARDO|GCESARF|gerardo.cesarf@dhl.com||Manuel Rodriguez|
+6057|||6308|Technology|CESAR FLORES GERARDO|GCESARF|gerardo.cesarf@dhl.com||Chavez Hernandez Marco Antonio|
+6057|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6198|||6165|Technology|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+6219|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6220|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6221|||6156|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+6315|||6227|Technology|O'BRIEN AMARAL ISRAEL|IOBRIENA|israel.obrienamaral@dhl.com||Manuel Rodriguez|
+6542|||6001|Technology|VALADEZ ARENAS MARIA CRISTINA |CVALADEZ|cristina.valadez@dhl.com||Manuel Rodriguez|
+7500|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+7501|||7501|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Edgardo Ulloa|
+7503|||7502|CONSUMER|GARCIA SALDAÐA ANTONIO|AGARCIA|antonio.garcia4@dhl.com||Antonio Garcia|
+7507|||3064|Automotive|BUSTILLOS CRISTALES MARIA DEL CONSUELO|CAB7601|consuelo.bustillos@dhl.com||Edgardo Ulloa|
+7507|||9031|Automotive|HILDA IRMA ROJAS PACHECO|HIROJAS|hilda.rojas@dhl.com||Edgado Ulloa|
+7520|||1186|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+7520|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+7530|||1023|CONSUMER|SALINAS GAYTAN ERIKA LIZETH|ESALINAS|erika.salinas@dhl.com||Compras|
+7541|||3002|Automotive|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Marco Corona|
+7542|||1002|CONSUMER|ANTONIO GARCIA SALDAÑA|AGARCIA|antonio.garcia4@dhl.com||Antonio Garcia|
+7544|||1402|LS|ALVAREZ FLORES ARELI|AALVAREZ|areli.alvarez@dhl.com||Jose Antonio Garcia|
+7555|||1002|CONSUMER|ALVAREZ FLORES ARELI|AALVAREZ|areli.alvarez@dhl.com||Jose Antonio Garcia|
+7555|||1017|CONSUMER|RENDON LOPEZ NANCY PATRICIA|NRENDON|nancy.rendon@dhl.com||Antonio Garcia|
+7555|||1022|CONSUMER|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Compras|
+7555|||1190|CONSUMER|LOPEZ AVINA MARIA DEL SOL RAQUEL|SLOPEZ|Sol.lopez@dhl.com||Manuel Rodriguez|
+7555|||1196|CONSUMER|CORDOVA HERNANDEZ ARELI ARIANA|ACORDOVA|areli.cordova@dhl.com||Antonio Garcia|
+7555|||1254|CONSUMER|MORENO GALVAN MONICA GABRIELA|MGMORENO|monica.morenogalvan@dhl.com||Salvador Carmona|
+7555|||1524|LS|ENRIQUEZ GARCIA CLAUDIA|CENRIQUEZ|claudia.enriquez@dhl.com||Maria PeredaS|
+7555|||3002|Automotive|ELIZABETH HERNANDEZ PAREDES|EHERNANDEZ|elizabeth.hernandezp@dhl.com||Edgado Ulloa|
+7555|||3110|Automotive|ELIZABETH HERNANDEZ PAREDES|EHERNANDEZ|elizabeth.hernandezp@dhl.com||Edgado Ulloa|
+7555|||4081|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgado Ulloa|
+7555|||4091|Chemical|PEREZ CRUZ ARTURO|APEREZ7|arturo.perez3@dhl.com||Edgado Ulloa|
+7560|||1220|CONSUMER|ROBLEDO VERA JULIO CESAR|JROBLEDO|juliocesar.robledo@dhl.com||Antonio Garcia|
+7590|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+7600|||1473|CONSUMER|HERNANDEZ ENRIQUEZ MONICA|MHERNANDEZE|monica.hernandeze@dhl.com||Manuel Rodriguez|
+7600|||3093|Automotive|ALEXANDRA GABRIELA V GRACIANO|ALEVILLEGAS|alexandra.villegasg@dhl.com||Alfredo Palacio|
+7600|||3100|Automotive|HILDA IRMA ROJAS PACHECO|HIROJAS|hilda.rojas@dhl.com||Edgado Ulloa|
+7600|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+7615|||3026|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+7615|||3027|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+7620|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Marco Vazquez|
+7630|||3026|Automotive|ROJAS PADILLA ERIKA|EROJAS|ericka.rojas@dhl.com||Edgado Ulloa|
+8985|||1905|LS|ESTRADA MEDRANO ERIKA BEATRIZ|ERIESTRA|e.estradam@dhl.com||Antonio Garcia|
+8985|||6129|SPL|VALADEZ ARENAS MARIA CRISTINA |CVALADEZ|cristina.valadez@dhl.com||Manuel Rodriguez|
+8985|||6193|Technology|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8007|SPL|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+8985|||8008|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8009|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8016|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8024|SPL|CESAR FLORES GERARDO|CESARF|gerardo.cesarf@dhl.com||DAVALOS CUEVAS ALFONSO MARTIN|
+8985|||8025|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8735|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8752|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8887|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8888|SPL|VALADEZ ARENAS MARIA CRISTINA |CVALADEZ|cristina.valadez@dhl.com||Manuel Rodriguez|
+8985|||8914|SPL|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+8985|||8917|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8938|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8940|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8942|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8953|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8960|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8969|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8976|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8977|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8985|||8979|SPL|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+8985|||8983|SPL|NALLELY JACINTO SOSA|NASOSAJA|nallely.sosaj@dhl.com||Adan Becerril Tapia|
+8995|||6053|Technology|JUAREZ MARTINEZ HUGO RAFAEL|HJUAREZ|hugo.juarez@dhl.com||Manuel Rodriguez|
+8995|||8885|SPL|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+8995|||8938|SPL|GARCIA MAYA SUSANA|SGARCIA|susana.garcia.maya@dhl.com||Manuel Rodriguez|
+8995|||8953|SPL|GARCIA MAYA SUSANA|SGARCIA|susana.garcia.maya@dhl.com||Manuel Rodriguez|
+8995|||8977|SPL|ANAYA ESPITIA MARIA ANGELICA|AANAYA|angelica.anaya@dhl.com||Manuel Rodriguez|
+9189|||9016|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9342|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9346|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9348|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9374|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9407|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9408|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9419|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9455|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9456|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9465|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9468|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9475|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9480|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9511|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9521|||9011|CONSUMER|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9525|||9061|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9529|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9540|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9544|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9556|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9768|||9006|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9776|||9004|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9871|||9001|CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9876|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9877|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9879|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9880|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9883|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9885|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9941|||0000|Regional Central |ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+9944|||9016|ZEBRA - CENTRAL OVERHEADS|ROSAS OLVERA TONANZY ALICIA|AROSASO|Alicia.Rosaso@dhl.com||Maria Aguado|
+2197|||1304|Life science|Enriquez Garcia Claudia|claudia.enriquez@dhl.com||Rios Tejada Francisco Nivardo|
+5178|||5002|RETAIL|Enriquez Garcia Claudia|claudia.enriquez@dhl.com||MARTINEZ SALINAS ENRIQUE|
+5178|||5202|RETAIL|RICARDO SANTANA TORRES|RISANTAN|r.santana@dhl.com||MARTINEZ SALINAS ENRIQUE|
+5178|||4171|EMCE|ARTURO PEREZ CRUZ|APEREZ7|arturo.perez3@dhl.com|MENDOZA VELAZQUEZ MARIO EDUARDO|
+7555|||3310||MANUEL TORRES MONTIEL|MTORRESM|manuel.torresmontiel@dhl.com||MIRANDA LOPEZTELLO MARIO|
+1720|||1552|Life science|MARIA DEL ROCIO GANDARIAS GONZALEZ|RGANDARI|rocio.gandarias@dhl.com||Israel Lembo Torres|

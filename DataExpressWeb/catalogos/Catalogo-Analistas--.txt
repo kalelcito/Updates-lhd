@@ -1,0 +1,2 @@
+CC|Nombre Site|Nombre Cliente|Cliente|Sector|Nombre Completo Financiero|User Mark View|Correo|Ext o Tel|FINANCE PARTNER|Otro
+1031|CIENEGA|Consumer Central|1002|Consumer|DIEGO RODRÍGUEZ|ESALINAS|diego-m.rodriguez.rosas@hotmail.com|34233|Compras|

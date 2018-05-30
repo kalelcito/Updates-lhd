@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSerie">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSerieResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSerieResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSello">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSelloResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSelloResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNoAprobacion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getNoAprobacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getNoAprobacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAnoAprobacion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAnoAprobacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAnoAprobacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNoCertificado">
+        <s:complexType />
+      </s:element>
+      <s:element name="getNoCertificadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getNoCertificadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCertificado">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCertificadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCertificadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setCertificado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cert" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setCertificadoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCadCont">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ccon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCadContResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getInteface">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="interf" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIntefaceResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSesionAdm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sesionAdm" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSesionAdmResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getMon">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tmon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMonResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getTimFac">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tm" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimFacResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getTipoProveedor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tProv" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTipoProveedorResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getPropi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pr" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPropiResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getParentInv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PI" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getParentInvResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getLAdi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLAdiResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getNomOrden">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNomOrdenResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSabana">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSabanaResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSiteOr">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="st" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSiteOrResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFinancieros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="corr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="noms" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFinancierosResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCO">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSelloSAT">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSelloSATResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSelloSATResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCadenaCFDI">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCadenaCFDIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCadenaCFDIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanValCadena">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanValCadenaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanValCadenaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanexistenciaCer">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanexistenciaCerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanexistenciaCerResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanstatusCer">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanstatusCerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanstatusCerResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanfolser">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanfolserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanfolserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanRangofol">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanRangofolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanRangofolResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanNoAprob">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanNoAprobResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanNoAprobResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmsgEstructura">
+        <s:complexType />
+      </s:element>
+      <s:element name="getmsgEstructuraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmsgEstructuraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getRFCEMISOR">
+        <s:complexType />
+      </s:element>
+      <s:element name="getRFCEMISORResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getRFCEMISORResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFolio">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFolioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFolioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanCFDI">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanCFDIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanCFDIResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getbanVigCer">
+        <s:complexType />
+      </s:element>
+      <s:element name="getbanVigCerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getbanVigCerResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getestadovalf">
+        <s:complexType />
+      </s:element>
+      <s:element name="getestadovalfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getestadovalfResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmsgarrayLog">
+        <s:complexType />
+      </s:element>
+      <s:element name="getmsgarrayLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmsgarrayLogResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFechaRec">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFechaRecResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFechaRecResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEstadoFinal">
+        <s:complexType />
+      </s:element>
+      <s:element name="getEstadoFinalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getEstadoFinalResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Factura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fac" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="bck" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="doc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="origen" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FacturaResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="leerIndividualX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="file" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rutaBCK" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="moneda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipProv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pInvo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sAdm" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="valInt" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="corr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="noms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fac" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="doc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="origen" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="leerIndividualXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="leerIndividualXResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obtenerCertificado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CertificadoSAT" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obtenerCertificadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obtenerCertificadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="validaRFC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rfcR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="validaRFCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="validaRFCResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getVersion" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSerieSoapIn">
+    <wsdl:part name="parameters" element="tns:getSerie" />
+  </wsdl:message>
+  <wsdl:message name="getSerieSoapOut">
+    <wsdl:part name="parameters" element="tns:getSerieResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSelloSoapIn">
+    <wsdl:part name="parameters" element="tns:getSello" />
+  </wsdl:message>
+  <wsdl:message name="getSelloSoapOut">
+    <wsdl:part name="parameters" element="tns:getSelloResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNoAprobacionSoapIn">
+    <wsdl:part name="parameters" element="tns:getNoAprobacion" />
+  </wsdl:message>
+  <wsdl:message name="getNoAprobacionSoapOut">
+    <wsdl:part name="parameters" element="tns:getNoAprobacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAnoAprobacionSoapIn">
+    <wsdl:part name="parameters" element="tns:getAnoAprobacion" />
+  </wsdl:message>
+  <wsdl:message name="getAnoAprobacionSoapOut">
+    <wsdl:part name="parameters" element="tns:getAnoAprobacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNoCertificadoSoapIn">
+    <wsdl:part name="parameters" element="tns:getNoCertificado" />
+  </wsdl:message>
+  <wsdl:message name="getNoCertificadoSoapOut">
+    <wsdl:part name="parameters" element="tns:getNoCertificadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCertificadoSoapIn">
+    <wsdl:part name="parameters" element="tns:getCertificado" />
+  </wsdl:message>
+  <wsdl:message name="getCertificadoSoapOut">
+    <wsdl:part name="parameters" element="tns:getCertificadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="setCertificadoSoapIn">
+    <wsdl:part name="parameters" element="tns:setCertificado" />
+  </wsdl:message>
+  <wsdl:message name="setCertificadoSoapOut">
+    <wsdl:part name="parameters" element="tns:setCertificadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCadContSoapIn">
+    <wsdl:part name="parameters" element="tns:getCadCont" />
+  </wsdl:message>
+  <wsdl:message name="getCadContSoapOut">
+    <wsdl:part name="parameters" element="tns:getCadContResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIntefaceSoapIn">
+    <wsdl:part name="parameters" element="tns:getInteface" />
+  </wsdl:message>
+  <wsdl:message name="getIntefaceSoapOut">
+    <wsdl:part name="parameters" element="tns:getIntefaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSesionAdmSoapIn">
+    <wsdl:part name="parameters" element="tns:getSesionAdm" />
+  </wsdl:message>
+  <wsdl:message name="getSesionAdmSoapOut">
+    <wsdl:part name="parameters" element="tns:getSesionAdmResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMonSoapIn">
+    <wsdl:part name="parameters" element="tns:getMon" />
+  </wsdl:message>
+  <wsdl:message name="getMonSoapOut">
+    <wsdl:part name="parameters" element="tns:getMonResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTimFacSoapIn">
+    <wsdl:part name="parameters" element="tns:getTimFac" />
+  </wsdl:message>
+  <wsdl:message name="getTimFacSoapOut">
+    <wsdl:part name="parameters" element="tns:getTimFacResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTipoProveedorSoapIn">
+    <wsdl:part name="parameters" element="tns:getTipoProveedor" />
+  </wsdl:message>
+  <wsdl:message name="getTipoProveedorSoapOut">
+    <wsdl:part name="parameters" element="tns:getTipoProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPropiSoapIn">
+    <wsdl:part name="parameters" element="tns:getPropi" />
+  </wsdl:message>
+  <wsdl:message name="getPropiSoapOut">
+    <wsdl:part name="parameters" element="tns:getPropiResponse" />
+  </wsdl:message>
+  <wsdl:message name="getParentInvSoapIn">
+    <wsdl:part name="parameters" element="tns:getParentInv" />
+  </wsdl:message>
+  <wsdl:message name="getParentInvSoapOut">
+    <wsdl:part name="parameters" element="tns:getParentInvResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLAdiSoapIn">
+    <wsdl:part name="parameters" element="tns:getLAdi" />
+  </wsdl:message>
+  <wsdl:message name="getLAdiSoapOut">
+    <wsdl:part name="parameters" element="tns:getLAdiResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNomOrdenSoapIn">
+    <wsdl:part name="parameters" element="tns:getNomOrden" />
+  </wsdl:message>
+  <wsdl:message name="getNomOrdenSoapOut">
+    <wsdl:part name="parameters" element="tns:getNomOrdenResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSabanaSoapIn">
+    <wsdl:part name="parameters" element="tns:getSabana" />
+  </wsdl:message>
+  <wsdl:message name="getSabanaSoapOut">
+    <wsdl:part name="parameters" element="tns:getSabanaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSiteOrSoapIn">
+    <wsdl:part name="parameters" element="tns:getSiteOr" />
+  </wsdl:message>
+  <wsdl:message name="getSiteOrSoapOut">
+    <wsdl:part name="parameters" element="tns:getSiteOrResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFinancierosSoapIn">
+    <wsdl:part name="parameters" element="tns:getFinancieros" />
+  </wsdl:message>
+  <wsdl:message name="getFinancierosSoapOut">
+    <wsdl:part name="parameters" element="tns:getFinancierosResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCOSoapIn">
+    <wsdl:part name="parameters" element="tns:getCO" />
+  </wsdl:message>
+  <wsdl:message name="getCOSoapOut">
+    <wsdl:part name="parameters" element="tns:getCOResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSelloSATSoapIn">
+    <wsdl:part name="parameters" element="tns:getSelloSAT" />
+  </wsdl:message>
+  <wsdl:message name="getSelloSATSoapOut">
+    <wsdl:part name="parameters" element="tns:getSelloSATResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCadenaCFDISoapIn">
+    <wsdl:part name="parameters" element="tns:getCadenaCFDI" />
+  </wsdl:message>
+  <wsdl:message name="getCadenaCFDISoapOut">
+    <wsdl:part name="parameters" element="tns:getCadenaCFDIResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanValCadenaSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanValCadena" />
+  </wsdl:message>
+  <wsdl:message name="getbanValCadenaSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanValCadenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanexistenciaCerSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanexistenciaCer" />
+  </wsdl:message>
+  <wsdl:message name="getbanexistenciaCerSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanexistenciaCerResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanstatusCerSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanstatusCer" />
+  </wsdl:message>
+  <wsdl:message name="getbanstatusCerSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanstatusCerResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanfolserSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanfolser" />
+  </wsdl:message>
+  <wsdl:message name="getbanfolserSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanfolserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanRangofolSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanRangofol" />
+  </wsdl:message>
+  <wsdl:message name="getbanRangofolSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanRangofolResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanNoAprobSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanNoAprob" />
+  </wsdl:message>
+  <wsdl:message name="getbanNoAprobSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanNoAprobResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmsgEstructuraSoapIn">
+    <wsdl:part name="parameters" element="tns:getmsgEstructura" />
+  </wsdl:message>
+  <wsdl:message name="getmsgEstructuraSoapOut">
+    <wsdl:part name="parameters" element="tns:getmsgEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRFCEMISORSoapIn">
+    <wsdl:part name="parameters" element="tns:getRFCEMISOR" />
+  </wsdl:message>
+  <wsdl:message name="getRFCEMISORSoapOut">
+    <wsdl:part name="parameters" element="tns:getRFCEMISORResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFolioSoapIn">
+    <wsdl:part name="parameters" element="tns:getFolio" />
+  </wsdl:message>
+  <wsdl:message name="getFolioSoapOut">
+    <wsdl:part name="parameters" element="tns:getFolioResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanCFDISoapIn">
+    <wsdl:part name="parameters" element="tns:getbanCFDI" />
+  </wsdl:message>
+  <wsdl:message name="getbanCFDISoapOut">
+    <wsdl:part name="parameters" element="tns:getbanCFDIResponse" />
+  </wsdl:message>
+  <wsdl:message name="getbanVigCerSoapIn">
+    <wsdl:part name="parameters" element="tns:getbanVigCer" />
+  </wsdl:message>
+  <wsdl:message name="getbanVigCerSoapOut">
+    <wsdl:part name="parameters" element="tns:getbanVigCerResponse" />
+  </wsdl:message>
+  <wsdl:message name="getestadovalfSoapIn">
+    <wsdl:part name="parameters" element="tns:getestadovalf" />
+  </wsdl:message>
+  <wsdl:message name="getestadovalfSoapOut">
+    <wsdl:part name="parameters" element="tns:getestadovalfResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmsgarrayLogSoapIn">
+    <wsdl:part name="parameters" element="tns:getmsgarrayLog" />
+  </wsdl:message>
+  <wsdl:message name="getmsgarrayLogSoapOut">
+    <wsdl:part name="parameters" element="tns:getmsgarrayLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFechaRecSoapIn">
+    <wsdl:part name="parameters" element="tns:getFechaRec" />
+  </wsdl:message>
+  <wsdl:message name="getFechaRecSoapOut">
+    <wsdl:part name="parameters" element="tns:getFechaRecResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEstadoFinalSoapIn">
+    <wsdl:part name="parameters" element="tns:getEstadoFinal" />
+  </wsdl:message>
+  <wsdl:message name="getEstadoFinalSoapOut">
+    <wsdl:part name="parameters" element="tns:getEstadoFinalResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacturaSoapIn">
+    <wsdl:part name="parameters" element="tns:Factura" />
+  </wsdl:message>
+  <wsdl:message name="FacturaSoapOut">
+    <wsdl:part name="parameters" element="tns:FacturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="leerIndividualXSoapIn">
+    <wsdl:part name="parameters" element="tns:leerIndividualX" />
+  </wsdl:message>
+  <wsdl:message name="leerIndividualXSoapOut">
+    <wsdl:part name="parameters" element="tns:leerIndividualXResponse" />
+  </wsdl:message>
+  <wsdl:message name="obtenerCertificadoSoapIn">
+    <wsdl:part name="parameters" element="tns:obtenerCertificado" />
+  </wsdl:message>
+  <wsdl:message name="obtenerCertificadoSoapOut">
+    <wsdl:part name="parameters" element="tns:obtenerCertificadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="validaRFCSoapIn">
+    <wsdl:part name="parameters" element="tns:validaRFC" />
+  </wsdl:message>
+  <wsdl:message name="validaRFCSoapOut">
+    <wsdl:part name="parameters" element="tns:validaRFCResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RecepcionSATSoap">
+    <wsdl:operation name="getVersion">
+      <wsdl:input message="tns:getVersionSoapIn" />
+      <wsdl:output message="tns:getVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSerie">
+      <wsdl:input message="tns:getSerieSoapIn" />
+      <wsdl:output message="tns:getSerieSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSello">
+      <wsdl:input message="tns:getSelloSoapIn" />
+      <wsdl:output message="tns:getSelloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getNoAprobacion">
+      <wsdl:input message="tns:getNoAprobacionSoapIn" />
+      <wsdl:output message="tns:getNoAprobacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAnoAprobacion">
+      <wsdl:input message="tns:getAnoAprobacionSoapIn" />
+      <wsdl:output message="tns:getAnoAprobacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getNoCertificado">
+      <wsdl:input message="tns:getNoCertificadoSoapIn" />
+      <wsdl:output message="tns:getNoCertificadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCertificado">
+      <wsdl:input message="tns:getCertificadoSoapIn" />
+      <wsdl:output message="tns:getCertificadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setCertificado">
+      <wsdl:input message="tns:setCertificadoSoapIn" />
+      <wsdl:output message="tns:setCertificadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCadCont">
+      <wsdl:input message="tns:getCadContSoapIn" />
+      <wsdl:output message="tns:getCadContSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getInteface">
+      <wsdl:input message="tns:getIntefaceSoapIn" />
+      <wsdl:output message="tns:getIntefaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSesionAdm">
+      <wsdl:input message="tns:getSesionAdmSoapIn" />
+      <wsdl:output message="tns:getSesionAdmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMon">
+      <wsdl:input message="tns:getMonSoapIn" />
+      <wsdl:output message="tns:getMonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTimFac">
+      <wsdl:input message="tns:getTimFacSoapIn" />
+      <wsdl:output message="tns:getTimFacSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTipoProveedor">
+      <wsdl:input message="tns:getTipoProveedorSoapIn" />
+      <wsdl:output message="tns:getTipoProveedorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropi">
+      <wsdl:input message="tns:getPropiSoapIn" />
+      <wsdl:output message="tns:getPropiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getParentInv">
+      <wsdl:input message="tns:getParentInvSoapIn" />
+      <wsdl:output message="tns:getParentInvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLAdi">
+      <wsdl:input message="tns:getLAdiSoapIn" />
+      <wsdl:output message="tns:getLAdiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getNomOrden">
+      <wsdl:input message="tns:getNomOrdenSoapIn" />
+      <wsdl:output message="tns:getNomOrdenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSabana">
+      <wsdl:input message="tns:getSabanaSoapIn" />
+      <wsdl:output message="tns:getSabanaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSiteOr">
+      <wsdl:input message="tns:getSiteOrSoapIn" />
+      <wsdl:output message="tns:getSiteOrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFinancieros">
+      <wsdl:input message="tns:getFinancierosSoapIn" />
+      <wsdl:output message="tns:getFinancierosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCO">
+      <wsdl:input message="tns:getCOSoapIn" />
+      <wsdl:output message="tns:getCOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSelloSAT">
+      <wsdl:input message="tns:getSelloSATSoapIn" />
+      <wsdl:output message="tns:getSelloSATSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCadenaCFDI">
+      <wsdl:input message="tns:getCadenaCFDISoapIn" />
+      <wsdl:output message="tns:getCadenaCFDISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanValCadena">
+      <wsdl:input message="tns:getbanValCadenaSoapIn" />
+      <wsdl:output message="tns:getbanValCadenaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanexistenciaCer">
+      <wsdl:input message="tns:getbanexistenciaCerSoapIn" />
+      <wsdl:output message="tns:getbanexistenciaCerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanstatusCer">
+      <wsdl:input message="tns:getbanstatusCerSoapIn" />
+      <wsdl:output message="tns:getbanstatusCerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanfolser">
+      <wsdl:input message="tns:getbanfolserSoapIn" />
+      <wsdl:output message="tns:getbanfolserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanRangofol">
+      <wsdl:input message="tns:getbanRangofolSoapIn" />
+      <wsdl:output message="tns:getbanRangofolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanNoAprob">
+      <wsdl:input message="tns:getbanNoAprobSoapIn" />
+      <wsdl:output message="tns:getbanNoAprobSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmsgEstructura">
+      <wsdl:input message="tns:getmsgEstructuraSoapIn" />
+      <wsdl:output message="tns:getmsgEstructuraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getRFCEMISOR">
+      <wsdl:input message="tns:getRFCEMISORSoapIn" />
+      <wsdl:output message="tns:getRFCEMISORSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFolio">
+      <wsdl:input message="tns:getFolioSoapIn" />
+      <wsdl:output message="tns:getFolioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanCFDI">
+      <wsdl:input message="tns:getbanCFDISoapIn" />
+      <wsdl:output message="tns:getbanCFDISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getbanVigCer">
+      <wsdl:input message="tns:getbanVigCerSoapIn" />
+      <wsdl:output message="tns:getbanVigCerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getestadovalf">
+      <wsdl:input message="tns:getestadovalfSoapIn" />
+      <wsdl:output message="tns:getestadovalfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmsgarrayLog">
+      <wsdl:input message="tns:getmsgarrayLogSoapIn" />
+      <wsdl:output message="tns:getmsgarrayLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFechaRec">
+      <wsdl:input message="tns:getFechaRecSoapIn" />
+      <wsdl:output message="tns:getFechaRecSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getEstadoFinal">
+      <wsdl:input message="tns:getEstadoFinalSoapIn" />
+      <wsdl:output message="tns:getEstadoFinalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Factura">
+      <wsdl:input message="tns:FacturaSoapIn" />
+      <wsdl:output message="tns:FacturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="leerIndividualX">
+      <wsdl:input message="tns:leerIndividualXSoapIn" />
+      <wsdl:output message="tns:leerIndividualXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCertificado">
+      <wsdl:input message="tns:obtenerCertificadoSoapIn" />
+      <wsdl:output message="tns:obtenerCertificadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="validaRFC">
+      <wsdl:input message="tns:validaRFCSoapIn" />
+      <wsdl:output message="tns:validaRFCSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RecepcionSATSoap" type="tns:RecepcionSATSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getVersion">
+      <soap:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSerie">
+      <soap:operation soapAction="http://tempuri.org/getSerie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSello">
+      <soap:operation soapAction="http://tempuri.org/getSello" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNoAprobacion">
+      <soap:operation soapAction="http://tempuri.org/getNoAprobacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAnoAprobacion">
+      <soap:operation soapAction="http://tempuri.org/getAnoAprobacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNoCertificado">
+      <soap:operation soapAction="http://tempuri.org/getNoCertificado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCertificado">
+      <soap:operation soapAction="http://tempuri.org/getCertificado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setCertificado">
+      <soap:operation soapAction="http://tempuri.org/setCertificado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCadCont">
+      <soap:operation soapAction="http://tempuri.org/getCadCont" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInteface">
+      <soap:operation soapAction="http://tempuri.org/getInteface" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSesionAdm">
+      <soap:operation soapAction="http://tempuri.org/getSesionAdm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMon">
+      <soap:operation soapAction="http://tempuri.org/getMon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimFac">
+      <soap:operation soapAction="http://tempuri.org/getTimFac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTipoProveedor">
+      <soap:operation soapAction="http://tempuri.org/getTipoProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPropi">
+      <soap:operation soapAction="http://tempuri.org/getPropi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getParentInv">
+      <soap:operation soapAction="http://tempuri.org/getParentInv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLAdi">
+      <soap:operation soapAction="http://tempuri.org/getLAdi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNomOrden">
+      <soap:operation soapAction="http://tempuri.org/getNomOrden" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSabana">
+      <soap:operation soapAction="http://tempuri.org/getSabana" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSiteOr">
+      <soap:operation soapAction="http://tempuri.org/getSiteOr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFinancieros">
+      <soap:operation soapAction="http://tempuri.org/getFinancieros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCO">
+      <soap:operation soapAction="http://tempuri.org/getCO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSelloSAT">
+      <soap:operation soapAction="http://tempuri.org/getSelloSAT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCadenaCFDI">
+      <soap:operation soapAction="http://tempuri.org/getCadenaCFDI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanValCadena">
+      <soap:operation soapAction="http://tempuri.org/getbanValCadena" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanexistenciaCer">
+      <soap:operation soapAction="http://tempuri.org/getbanexistenciaCer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanstatusCer">
+      <soap:operation soapAction="http://tempuri.org/getbanstatusCer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanfolser">
+      <soap:operation soapAction="http://tempuri.org/getbanfolser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanRangofol">
+      <soap:operation soapAction="http://tempuri.org/getbanRangofol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanNoAprob">
+      <soap:operation soapAction="http://tempuri.org/getbanNoAprob" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmsgEstructura">
+      <soap:operation soapAction="http://tempuri.org/getmsgEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRFCEMISOR">
+      <soap:operation soapAction="http://tempuri.org/getRFCEMISOR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFolio">
+      <soap:operation soapAction="http://tempuri.org/getFolio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanCFDI">
+      <soap:operation soapAction="http://tempuri.org/getbanCFDI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanVigCer">
+      <soap:operation soapAction="http://tempuri.org/getbanVigCer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getestadovalf">
+      <soap:operation soapAction="http://tempuri.org/getestadovalf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmsgarrayLog">
+      <soap:operation soapAction="http://tempuri.org/getmsgarrayLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFechaRec">
+      <soap:operation soapAction="http://tempuri.org/getFechaRec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEstadoFinal">
+      <soap:operation soapAction="http://tempuri.org/getEstadoFinal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Factura">
+      <soap:operation soapAction="http://tempuri.org/Factura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leerIndividualX">
+      <soap:operation soapAction="http://tempuri.org/leerIndividualX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCertificado">
+      <soap:operation soapAction="http://tempuri.org/obtenerCertificado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validaRFC">
+      <soap:operation soapAction="http://tempuri.org/validaRFC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RecepcionSATSoap12" type="tns:RecepcionSATSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getVersion">
+      <soap12:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSerie">
+      <soap12:operation soapAction="http://tempuri.org/getSerie" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSello">
+      <soap12:operation soapAction="http://tempuri.org/getSello" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNoAprobacion">
+      <soap12:operation soapAction="http://tempuri.org/getNoAprobacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAnoAprobacion">
+      <soap12:operation soapAction="http://tempuri.org/getAnoAprobacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNoCertificado">
+      <soap12:operation soapAction="http://tempuri.org/getNoCertificado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCertificado">
+      <soap12:operation soapAction="http://tempuri.org/getCertificado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setCertificado">
+      <soap12:operation soapAction="http://tempuri.org/setCertificado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCadCont">
+      <soap12:operation soapAction="http://tempuri.org/getCadCont" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInteface">
+      <soap12:operation soapAction="http://tempuri.org/getInteface" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSesionAdm">
+      <soap12:operation soapAction="http://tempuri.org/getSesionAdm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMon">
+      <soap12:operation soapAction="http://tempuri.org/getMon" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimFac">
+      <soap12:operation soapAction="http://tempuri.org/getTimFac" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTipoProveedor">
+      <soap12:operation soapAction="http://tempuri.org/getTipoProveedor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPropi">
+      <soap12:operation soapAction="http://tempuri.org/getPropi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getParentInv">
+      <soap12:operation soapAction="http://tempuri.org/getParentInv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLAdi">
+      <soap12:operation soapAction="http://tempuri.org/getLAdi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNomOrden">
+      <soap12:operation soapAction="http://tempuri.org/getNomOrden" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSabana">
+      <soap12:operation soapAction="http://tempuri.org/getSabana" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSiteOr">
+      <soap12:operation soapAction="http://tempuri.org/getSiteOr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFinancieros">
+      <soap12:operation soapAction="http://tempuri.org/getFinancieros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCO">
+      <soap12:operation soapAction="http://tempuri.org/getCO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSelloSAT">
+      <soap12:operation soapAction="http://tempuri.org/getSelloSAT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCadenaCFDI">
+      <soap12:operation soapAction="http://tempuri.org/getCadenaCFDI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanValCadena">
+      <soap12:operation soapAction="http://tempuri.org/getbanValCadena" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanexistenciaCer">
+      <soap12:operation soapAction="http://tempuri.org/getbanexistenciaCer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanstatusCer">
+      <soap12:operation soapAction="http://tempuri.org/getbanstatusCer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanfolser">
+      <soap12:operation soapAction="http://tempuri.org/getbanfolser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanRangofol">
+      <soap12:operation soapAction="http://tempuri.org/getbanRangofol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanNoAprob">
+      <soap12:operation soapAction="http://tempuri.org/getbanNoAprob" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmsgEstructura">
+      <soap12:operation soapAction="http://tempuri.org/getmsgEstructura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRFCEMISOR">
+      <soap12:operation soapAction="http://tempuri.org/getRFCEMISOR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFolio">
+      <soap12:operation soapAction="http://tempuri.org/getFolio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanCFDI">
+      <soap12:operation soapAction="http://tempuri.org/getbanCFDI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbanVigCer">
+      <soap12:operation soapAction="http://tempuri.org/getbanVigCer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getestadovalf">
+      <soap12:operation soapAction="http://tempuri.org/getestadovalf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmsgarrayLog">
+      <soap12:operation soapAction="http://tempuri.org/getmsgarrayLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFechaRec">
+      <soap12:operation soapAction="http://tempuri.org/getFechaRec" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEstadoFinal">
+      <soap12:operation soapAction="http://tempuri.org/getEstadoFinal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Factura">
+      <soap12:operation soapAction="http://tempuri.org/Factura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leerIndividualX">
+      <soap12:operation soapAction="http://tempuri.org/leerIndividualX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCertificado">
+      <soap12:operation soapAction="http://tempuri.org/obtenerCertificado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validaRFC">
+      <soap12:operation soapAction="http://tempuri.org/validaRFC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RecepcionSAT">
+    <wsdl:port name="RecepcionSATSoap" binding="tns:RecepcionSATSoap">
+      <soap:address location="http://localhost:20971/ws/RecepcionSAT.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RecepcionSATSoap12" binding="tns:RecepcionSATSoap12">
+      <soap12:address location="http://localhost:20971/ws/RecepcionSAT.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

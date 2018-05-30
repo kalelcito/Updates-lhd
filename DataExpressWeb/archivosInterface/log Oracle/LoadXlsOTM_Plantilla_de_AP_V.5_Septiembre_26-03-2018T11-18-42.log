@@ -1,0 +1,24 @@
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:3-3, UUIDs:2ca0f78f-edde-424a-97f8-5f1e29dc23d0]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (499.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:4-4, UUIDs:1366805c-5516-4d54-814d-a818865673c2]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (9512.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:5-5, UUIDs:7c314d65-7606-4a15-9b6c-c52e86c94b09]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (129.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:6-6, UUIDs:47323020-5bc4-45c9-8575-06dc10058fe8]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (3762.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:7-7, UUIDs:afec16d7-52b3-487b-9ce4-4124120e8ce2]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (6557.69) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------
+
+Log Entry : 11:19:13 a. m.
+    :[FAIL=RowNumbers:8-8, UUIDs:7629ef6c-06e4-4cde-9901-3db22a8490c9]: La sumatoria del MontoTotal de los registros del InvoiceNum "AMEX SEPTIEMBRE 2017" (258.00) no coincide  con el InvoiceAmount (20717.69)
+-------------------------------

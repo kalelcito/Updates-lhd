@@ -1,0 +1,799 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DataExpressWeb.SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="StylesEx.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+    <style type="text/css">
+        /*ESTILO DEL MENU PRINCIPAL*/
+        body, ul, li {
+            font-size: 14px;
+            font-family: Arial;
+            line-height: 21px;
+            text-align: left;
+        }
+
+        #menu1 {
+            list-style: none;
+            width: 100%;
+            /*margin:0px 0px 0px 0px;*/
+            height: 43px;
+            /*padding:0px 0px 0px 20px;*/
+            /* Rounded Corners */
+            /*-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/
+            /* Background color and gradients */
+            background: #ffcc00;
+            /*background: -moz-linear-gradient(top, #0272a7, #013953);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));*/
+            /* Borders */
+            border: 1px solid #ffcc00;
+            /*-moz-box-shadow:inset 0px 0px 1px #edf9ff;
+	-webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+	box-shadow:inset 0px 0px 1px #edf9ff;*/
+        }
+
+            #menu1 li {
+                float: left;
+                display: block;
+                text-align: center;
+                position: relative;
+                padding: 4px 10px 4px 10px;
+                margin-right: 30px;
+                margin-top: 7px;
+                border: none;
+            }
+
+                #menu1 li:hover {
+                    border: 1px solid #777777;
+                    padding: 4px 9px 4px 9px;
+                    /* Background color and gradients */
+                    background: #C90101;
+                    /*background: -moz-linear-gradient(top, #F4F4F4, #EEEEEE);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));*/
+                    /* Rounded corners */
+                    -moz-border-radius: 5px 5px 0px 0px;
+                    -webkit-border-radius: 5px 5px 0px 0px;
+                    border-radius: 5px 5px 0px 0px;
+                }
+
+                #menu1 li a {
+                    font-family: Arial;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #000;
+                    display: block;
+                    outline: 0;
+                    text-decoration: none;
+                    /*text-shadow: 1px 1px 1px #000;*/
+                }
+
+                #menu1 li:hover a {
+                    color: #ffcc00;
+                    /*text-shadow: 1px 1px 1px #ffffff;*/
+                }
+
+                #menu1 li .drop {
+                    padding-right: 21px;
+                }
+
+                #menu1 li:hover .drop {
+                }
+
+        .dropdown_1column,
+        .dropdown_2columns,
+        .dropdown_3columns,
+        .dropdown_4columns,
+        .dropdown_5columns {
+            margin: 4px auto;
+            float: left;
+            position: absolute;
+            left: -999em; /* Hides the drop down */
+            text-align: left;
+            padding: 10px 5px 10px 5px;
+            border: 1px solid #777777;
+            border-top: solid;
+            /* Gradient background */
+            background: #FCFCFC;
+            /*background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));*/
+            /* Rounded Corners */
+            -moz-border-radius: 0px 5px 5px 5px;
+            -webkit-border-radius: 0px 5px 5px 5px;
+            border-radius: 0px 5px 5px 5px;
+        }
+
+        .dropdown_1column {
+            width: 140px;
+        }
+
+        .dropdown_2columns {
+            width: 280px;
+        }
+
+        .dropdown_3columns {
+            width: 420px;
+        }
+
+        .dropdown_4columns {
+            width: 560px;
+        }
+
+        .dropdown_5columns {
+            width: 700px;
+        }
+
+        #menu1 li:hover .dropdown_1column,
+        #menu1 li:hover .dropdown_2columns,
+        #menu1 li:hover .dropdown_3columns,
+        #menu1 li:hover .dropdown_4columns,
+        #menu1 li:hover .dropdown_5columns {
+            left: -1px;
+            top: auto;
+        }
+
+        .col_1,
+        .col_2,
+        .col_3,
+        .col_4,
+        .col_5 {
+            display: inline;
+            float: left;
+            position: relative;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .col_1 {
+            width: 300px;
+        }
+
+        .col_2 {
+            width: 270px;
+        }
+
+        .col_3 {
+            width: 410px;
+        }
+
+        .col_4 {
+            width: 550px;
+        }
+
+        .col_5 {
+            width: 690px;
+        }
+
+        #menu1 .menu_right {
+            float: right;
+            margin-right: 0px;
+        }
+
+        #menu1 li .align_right {
+            /* Rounded Corners */
+            -moz-border-radius: 5px 0px 5px 5px;
+            -webkit-border-radius: 5px 0px 5px 5px;
+            border-radius: 5px 0px 5px 5px;
+        }
+
+        #menu1 li:hover .align_right {
+            left: auto;
+            right: -1px;
+            top: auto;
+        }
+
+        #menu1 p, #menu1 h2, #menu1 h3, #menu1 ul li {
+            font-family: Arial;
+            line-height: 21px;
+            font-size: 12px;
+            text-align: left;
+            text-shadow: 1px 1px 1px #FFFFFF;
+        }
+
+        #menu1 h2 {
+            font-size: 21px;
+            font-weight: 400;
+            font-family: Arial;
+            letter-spacing: -1px;
+            margin: 7px 0 14px 0;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #666666;
+        }
+
+        #menu1 h3 {
+            font-size: 14px;
+            font-family: Arial;
+            margin: 7px 0 14px 0;
+            padding-bottom: 7px;
+            border-bottom: 1px solid #888888;
+        }
+
+        #menu1 p {
+            line-height: 18px;
+            margin: 0 0 10px 0;
+        }
+
+        #menu1 li:hover div a {
+            font-size: 12px;
+            color: #000;
+        }
+
+            #menu1 li:hover div a:hover {
+                /*color:#029feb;*/
+                text-decoration: underline;
+            }
+
+
+        .strong {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .imgshadow { /* Better style on light background */
+            background: #FFFFFF;
+            padding: 4px;
+            border: 1px solid #777777;
+            margin-top: 5px;
+            -moz-box-shadow: 0px 0px 5px #666666;
+            -webkit-box-shadow: 0px 0px 5px #666666;
+            box-shadow: 0px 0px 5px #666666;
+        }
+
+        .img_left { /* Image sticks to the left */
+            width: auto;
+            float: left;
+            margin: 5px 15px 5px 5px;
+        }
+
+        #menu1 li .black_box {
+            background-color: #333333;
+            color: #eeeeee;
+            text-shadow: 1px 1px 1px #000;
+            padding: 4px 6px 4px 6px;
+            /* Rounded Corners */
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            /* Shadow */
+            -webkit-box-shadow: inset 0 0 3px #000000;
+            -moz-box-shadow: inset 0 0 3px #000000;
+            box-shadow: inset 0 0 3px #000000;
+        }
+
+        #menu1 li ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 12px 0;
+        }
+
+            #menu1 li ul li {
+                font-size: 12px;
+                line-height: 24px;
+                position: relative;
+                text-shadow: 1px 1px 1px #ffffff;
+                padding: 0;
+                margin: 0;
+                float: none;
+                text-align: left;
+                width: 330px;
+            }
+
+                #menu1 li ul li:hover {
+                    background: none;
+                    border: none;
+                    padding: 0;
+                    margin: 0;
+                }
+
+        #menu1 li .greybox li {
+            background: #F4F4F4;
+            border: 1px solid #bbbbbb;
+            margin: 0px 0px 4px 0px;
+            padding: 4px 6px 4px 6px;
+            width: 116px;
+            /* Rounded Corners */
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+            #menu1 li .greybox li:hover {
+                background: #ffffff;
+                border: 1px solid #aaaaaa;
+                padding: 4px 6px 4px 6px;
+                margin: 0px 0px 4px 0px;
+            }
+        /*ESTILO DEL MENU PRINCIPAL*/
+
+
+
+
+
+        html {
+            height: 100%;
+        }
+
+        form {
+            height: 100%;
+            margin-top: 0px;
+        }
+
+        #contenedor {
+            width: 100%;
+            height: 100%;
+        }
+
+        #bus144 {
+            position: absolute;
+            left: 333px;
+            top: -73px;
+            z-index: 1;
+            width: 663px;
+            height: 38px;
+        }
+
+        .dhlLogo {
+            padding: 0.75em 0 0 1.75em;
+        }
+
+        .columnLeft {
+            border-width: 1px;
+            border-right-style: solid;
+            border-right-color: #F5F5F5;
+            box-shadow: 10px 0px 15px #F5F5F5;
+            height: 550px;
+            float: left;
+            /* margin-right:20px;
+    padding:20px*/
+        }
+
+        .columnRight {
+            height: auto;
+            float: right;
+            width:1070px ; /**/
+        }
+
+        #wrapper {
+            width: 100%;
+            overflow: auto;
+            margin: 0;
+            height: 100%;
+        }
+
+        .style8 {
+            width: 58px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >--%>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" CombineScripts="false" runat="server" EnableScriptGlobalization="True">
+            <Services>
+                <asp:ServiceReference Path="~/nuevo/autoRazon.asmx" />
+                <asp:ServiceReference Path="~/nuevo/autoRec.asmx" />
+            </Services>
+        </ajaxToolkit:ToolkitScriptManager>
+        <div id="wrapper">
+            <div class="logo" style="border: 0px solid #ffcc00; background-color: #ffcc00; height: 50px;">
+                <div class="loginDisplay">
+                    <%  if (!Convert.ToBoolean(Session["Bandera"]))
+                        {  %>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/cuenta/Login.aspx" Visible="false" Font-Bold="True" Font-Size="Medium" ForeColor="Black">Iniciar Sesion</asp:HyperLink>
+                    <%  }
+                        else {  %>
+                    <asp:Label ID="lRfc" runat="server" Font-Bold="True" Font-Size="12px" ForeColor="#000"></asp:Label>
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True"
+                        Font-Names="Arial" Font-Size="12px" ForeColor="Black"
+                        OnClick="LinkButton1_Click">Mi Cuenta</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:HyperLink ID="hlCerrar" runat="server" NavigateUrl="~/Cerrar.aspx" Font-Bold="True" Font-Size="12px" ForeColor="Black">Cerrar Sesion</asp:HyperLink>
+                    <%  }  %>
+                </div>
+
+                <asp:Image ID="Image1" CssClass="dhlLogo" ImageAlign="Middle" runat="server" ImageUrl="~/Imagenes-dhl/logo-dhl.png" Width="113px" Height="42px"  />  <%--Width="113px" Height="42px"--%>
+                <asp:Timer ID="Tmsj" runat="server" Interval="4000" OnTick="Tmsj_Tick" Enabled="False">
+                </asp:Timer>
+
+            </div>
+
+            <ul id="menu1">
+                <li><a runat="server" id="m2" visible="false" class="drop">Portal Consultas de CFDI</a><!-- Begin 4 columns Item -->
+
+                    <div class="dropdown_4columns">
+                        <div class="col_4">
+                            <h2>Bienvenidos al Portal Consultas de CFDI</h2>
+                        </div>
+                        <div class="col_1">
+
+                            <%--  <h3>Portal Consultas de CFDI</h3>--%>
+                            <ul>
+                                <li>
+                                    <%if (Session["permisos"] != null)
+                                        {%>
+                                    <% if (!(Session["permisos"].ToString().IndexOf("CompFis") < 0))
+                                        { %>
+                                    <asp:HyperLink ID="HyperLink2" CssClass="menu_letras" NavigateUrl="~/menuReceDHL/ComprobantesFiscales.aspx" runat="server"> Comprobantes Fiscales Digitales</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink7" CssClass="menu_letras" NavigateUrl="~/menuReceDHL/ComprobantesOTM.aspx" runat="server"> Comprobantes Fiscales Digitales OTM</asp:HyperLink>
+                                    <%}
+                                        } %>
+                                </li>
+                                <li>
+
+                                    <%if (Session["permisos"] != null)
+                                        {%>
+                                    <%if (!(Session["permisos"].ToString().IndexOf("Interfaz") < 0))
+                                        { %>
+                                    <asp:HyperLink ID="HyperLink3" CssClass="menu_letras" NavigateUrl="~/menuReceDHL/interfazArc.aspx" runat="server"> Interface de Archivos</asp:HyperLink>
+                                    <%}
+                                        }%>
+                                    <asp:HyperLink ID="HyperLink9" CssClass="menu_letras" NavigateUrl="~/menuReceDHL/interfazOracle.aspx" runat="server" Visible="false"> Registros Oracle</asp:HyperLink>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- End 4 columns container -->
+
+                </li>
+                <!-- End 4 columns Item -->
+
+
+                <li><a runat="server" id="m1" class="drop" visible="false">Administración</a><!-- Begin 4 columns Item -->
+
+                    <div class="dropdown_4columns">
+                        <!-- Begin 4 columns container -->
+
+                        <div class="col_4">
+                            <h2>Bienvenidos al área de administración de DHL</h2>
+                        </div>
+
+
+
+                        <div class="col_1">
+
+                            <%--<h3>Administración</h3>--%>
+                            <ul>
+                                <%if (Session["permisos"] != null)
+                                    {%>
+                                <%if (!(Session["permisos"].ToString().IndexOf("AdmUsuarios") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink4" CssClass="menu_letras" NavigateUrl="~/menuReceDHL/UsuariosDhl.aspx" runat="server">Administración de Usuarios</asp:HyperLink></li>
+                                <%} %>
+
+                                <%if (!(Session["permisos"].ToString().IndexOf("AdmProveedores") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink11" CssClass="sideMenuComprobantesFiscales" NavigateUrl="~/menuReceDHL/proveedoresDhl.aspx" runat="server">Administración de Proveedores</asp:HyperLink></li>
+                                <%} %>
+
+                                <% if (!(Session["permisos"].ToString().IndexOf("AdmReceptores") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink13" CssClass="sideMenuComprobantesFiscales" NavigateUrl="~/menuReceDHL/receptoresCfdi.aspx" runat="server">Administración de Receptores de CFDI</asp:HyperLink></li>
+                                <%} %>
+
+                                <% if (!(Session["permisos"].ToString().IndexOf("AdmConfiguracion") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink15" CssClass="sideMenuComprobantesFiscales" NavigateUrl="~/menuReceDHL/diasOperacion.aspx" runat="server">Administración de Configuración</asp:HyperLink></li>
+                                <%} %>
+
+                                <%if (!(Session["permisos"].ToString().IndexOf("AdmMensajes") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink6" CssClass="sideMenuComprobantesFiscales" NavigateUrl="~/menuReceDHL/AdminMensaje.aspx" runat="server">Administración de Mensaje</asp:HyperLink></li>
+                                <%} %>
+
+                                <%if (!(Session["permisos"].ToString().IndexOf("AdmCat") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink8" CssClass="sideMenuComprobantesFiscales" NavigateUrl="~/menuReceDHL/AdminCat.aspx" runat="server">Administración de Catálogos</asp:HyperLink></li>
+                                <%} %>
+                                <%if (!(Session["permisos"].ToString().IndexOf("Reportes") < 0))
+                                    { %>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink5" CssClass="menu_letras" NavigateUrl="~/reportes/reporteSucursalesA.aspx" runat="server">Reportes</asp:HyperLink></li>
+                                <%} %>
+                                <%} %>
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- End 4 columns container -->
+
+                </li>
+                <!-- End 4 columns Item -->
+
+
+            </ul>
+
+
+
+
+            <div>
+                <center>
+                <%if (Convert.ToBoolean(Session["estPan"]))
+                    {
+                        if (Convert.ToBoolean(Session["estNot"]))
+                        {
+                            noti.BackColor = System.Drawing.Color.Gray;
+                            LbNoti.Text = Session["msjNoti"].ToString();
+                            ImgNoti.ImageUrl = "~/Imagenes-dhl/paloma.png";
+                            noti.Visible = true;
+                            Tmsj.Enabled = true;
+                        }
+                        else
+                        {
+
+                            string col = "#d40511";
+                            System.Drawing.Color color = System.Drawing.ColorTranslator.FromHtml(col);
+                            noti.BackColor = color;
+                            LbNoti.Text = Session["msjNoti"].ToString();
+                            ImgNoti.ImageUrl = "~/Imagenes-dhl/tache.png";
+                            noti.Visible = true;
+                            Tmsj.Enabled = true;
+                        }
+
+                        Session["estPan"] = false;
+
+                    }   %>
+
+               <asp:Panel ID="noti" runat="server" Height="43px" Width="649px" 
+                BackColor="Red" BorderColor="Black" BorderStyle="Solid" Visible="false" 
+                    BorderWidth="1px">
+                <table style="height: 30px; width: 648px">
+                <tr>
+                <td align="center" class="style8">
+                <center style="width: 56px">
+                    <asp:Image ID="ImgNoti" runat="server" Height="34px" Width="42px" />
+                    </center>
+                    </td>
+                <td align="center">
+                    <asp:Label ID="LbNoti" runat="server" Font-Bold="True" Font-Size="Small" 
+                        Text="Label" ForeColor="White"></asp:Label>
+                    </td>
+                </tr>
+                </table>
+            </asp:Panel>
+            </center>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <%if (Convert.ToBoolean(Session["Menu"]))
+                    { %>
+                <%--<asp:Panel ID="Panel6" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove"  Height="36px" Width="100%" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                <asp:Menu ID="menu" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu" runat="server"
+                     Font-Bold="True" Font-Size="Medium" onmenuitemclick="menu_MenuItemClick" Visible="true">
+                   
+                    <Items>
+                    <asp:MenuItem  Text="Portal de consultas CDFI" Value="0" Selected="true">
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Administración" Value="1"></asp:MenuItem>          
+                    </Items>
+                     <StaticMenuItemStyle CssClass="tab" />
+                     <StaticSelectedStyle CssClass="selectedtab" />
+                </asp:Menu>
+                </asp:Panel>--%>
+                <%} %>
+            </asp:ContentPlaceHolder>
+
+
+
+            <asp:ContentPlaceHolder ID="head2" runat="server">
+                <%if (Convert.ToBoolean(Session["Menu"]) && Convert.ToBoolean(Session["Menu2"]))
+                    { %>
+                <%--  <asp:Panel ID="pmenu" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove"  Height="62px" Width="403px" 
+                   style="margin-right: 6px; margin-top: 17px;">--%>
+                <%--    <asp:Panel ID="Panel4" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                         Width="393px">
+                         Portal de consulta de CFDI</asp:Panel>--%>
+
+                <%--  <asp:Menu ID="menu1" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu" runat="server"
+                    Font-Bold="True" Font-Size="11px" Width="383px" Font-Names="Arial">
+                    <Items>
+                    <asp:MenuItem  Text="Comprobantes Fiscales Digitales" Value="2" Selected="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Interface de Archivos" Value="3" 
+                            NavigateUrl="~/menuReceDHL/interfazArc.aspx"></asp:MenuItem>          
+                    </Items>
+                         <StaticMenuItemStyle CssClass="tab" />
+                         <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>--%>
+
+                <%--  </asp:Panel>--%>
+                <%} %>
+
+                <%if (Convert.ToBoolean(Session["Menu"]) && Convert.ToBoolean(Session["Menu3"]))
+                    { %>
+                <%--<asp:Panel ID="Panel3" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove"  Height="96px"
+                   style="margin-right: 6px; margin-top: 17px; " Width="100%">
+             <table style="width: 1261px; height: 70px; margin-left:auto; margin-right:auto;">
+              <tr>
+                <td class="style14">
+                <asp:Panel ID="Panel1" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove" Height="56px" Width="186px" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                     <asp:Panel ID="Panel2" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                         Font-Size="Smaller" Width="180px">
+                         Administración de Usuarios</asp:Panel>
+                         <center style="height: 26px; width: 165px">
+                         <center style="width: 177px">
+                     <asp:Menu ID="menu2" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu2" runat="server"
+                    onmenuitemclick="menu_MenuItemClick" Font-Bold="False" Font-Size="8px">
+                    <Items>
+                    <asp:MenuItem  Text="Usuarios" Value="4" Selected="true" 
+                            NavigateUrl="~/menuReceDHL/UsuariosDhl.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Grupos" Value="5" 
+                            NavigateUrl="~/menuReceDHL/GruposUsuarios.aspx"></asp:MenuItem>          
+                    </Items>
+                         <StaticMenuItemStyle CssClass="tab" />
+                         <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>
+                 </center>
+                     <br />
+                     </center>
+               </asp:Panel></td>
+                <td class="style15">
+                <asp:Panel ID="Panel5" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove" Height="56px" Width="265px" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                     <asp:Panel ID="Panel7" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                         Font-Size="Smaller" Width="256px">
+                         Administración de Preveedores</asp:Panel>
+                         <center style="height: 32px; width: 262px">
+                         
+                     <asp:Menu ID="menu3" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu2" runat="server"
+                    onmenuitemclick="menu_MenuItemClick" Font-Bold="False" Font-Size="8px">
+                    <Items>
+                    <asp:MenuItem  Text="Proveedores" Value="6" Selected="true" 
+                            NavigateUrl="~/menuReceDHL/proveedoresDhl.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Solicitudes de Registro" Value="7" 
+                            NavigateUrl="~/menuReceDHL/solicitudes.aspx"></asp:MenuItem>          
+                    </Items>
+                         <StaticMenuItemStyle CssClass="tab" />
+                         <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>
+                 </center>
+                     <br />
+                 
+               </asp:Panel>
+                </td>
+                <td class="style12">
+                    <asp:Panel ID="Panel8" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove" Height="56px" Width="266px" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                     <asp:Panel ID="Panel9" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                            Font-Size="Smaller" Width="258px">
+                         Administración de Receptores de CFDI</asp:Panel>
+                         <center style="height: 33px; width: 257px">
+                         
+                     <asp:Menu ID="menu4" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu2" runat="server"
+                    onmenuitemclick="menu_MenuItemClick" Font-Bold="False" Font-Size="8px">
+                    <Items>
+                    <asp:MenuItem  Text="Receptores de CFDI" Value="8" Selected="true" 
+                            NavigateUrl="~/menuReceDHL/receptoresCfdi.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Códigos de IVA" Value="9" 
+                            NavigateUrl="~/menuReceDHL/codigosIVA.aspx"></asp:MenuItem>          
+                    </Items>
+                         <StaticMenuItemStyle CssClass="tab" />
+                         <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>
+                 </center>
+                     <br />
+                 
+               </asp:Panel>
+                </td>
+                <td class="style16">
+                   <asp:Panel ID="Panel10" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove" Height="56px" Width="356px" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                     <asp:Panel ID="Panel11" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                           Font-Size="Smaller" Width="349px">
+                         Administración de Configuración</asp:Panel>
+                         <center style="height: 25px; width: 356px">
+                         
+                     <asp:Menu ID="menu5" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu2" runat="server"
+                    onmenuitemclick="menu_MenuItemClick" Font-Bold="False" Font-Size="8px">
+                    <Items>
+                    <asp:MenuItem  Text="Días de Operación" Value="10" Selected="true" 
+                            NavigateUrl="~/menuReceDHL/diasOperacion.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Monedas" Value="11" 
+                            NavigateUrl="~/menuReceDHL/monedas.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Tipo de Proveedor" Value="12" 
+                            NavigateUrl="~/menuReceDHL/tiposProveedor.aspx"></asp:MenuItem>          
+                    </Items>
+                         <StaticMenuItemStyle CssClass="tab" />
+                         <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>
+                 </center>
+                     <br />
+                 
+               </asp:Panel>
+                </td>
+                <td>
+                
+                <asp:Panel ID="Panel12" runat="server" BackColor="#ffcc00" BorderColor="#E4B918" 
+                    BorderStyle="Groove" Height="57px" Width="102px" 
+                   style="margin-right: 6px; margin-top: 17px;">
+                     <asp:Panel ID="Panel13" runat="server" BorderColor="#FFE88C" BorderStyle="Outset" 
+                         Font-Bold="True" ForeColor="Black" style="text-align: center" 
+                            Font-Size="Smaller" Width="89px">
+                         Reportes</asp:Panel>
+                         <center style="height: 30px; width: 98px">
+                         
+              <asp:Menu ID="menu6" Orientation="Horizontal" IncludeStyleBlock="False" StaticMenuItemStyle-CssClass="tab"
+                 StaticSelectedStyle-CssClass="selectedtab" CssClass="menu2" runat="server"
+                    onmenuitemclick="menu_MenuItemClick" Font-Bold="False" Font-Size="8px">
+                    <Items>
+                    <asp:MenuItem  Text="Reportes" Value="13" Selected="true" 
+                            NavigateUrl="~/menuReceDHL/reportesDHL.aspx"></asp:MenuItem>
+                    </Items>
+                       <StaticMenuItemStyle CssClass="tab" />
+                       <StaticSelectedStyle CssClass="selectedtab" />
+                 </asp:Menu>
+               </center>
+                     <br />
+                 
+               </asp:Panel>
+                </td>
+              </tr>
+              </table>
+              </asp:Panel>--%>
+                <%} %>
+            </asp:ContentPlaceHolder>
+            <%--   <div class="clear" style=" background-color: #DFAF02">
+        </div> --%>
+
+            <div class="main">
+                <div class="columnRight">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                </div>
+
+                <div class="columnLeft">
+                    <asp:ContentPlaceHolder ID="MenuIzquierdo" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="footer">
+                <asp:Panel ID="Panel14" runat="server" BackColor="#ffcc00" BorderColor="#ffcc00" BorderStyle="solid" Height="36px" Width="100%">
+                </asp:Panel>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
