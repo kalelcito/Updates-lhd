@@ -85,7 +85,7 @@ namespace DataExpressWeb
                         }
 
                         Peditar.Width = 423;
-                        Peditar.Height = 350;
+                        Peditar.Height = 380;
                         Peditar.Visible = true;
                     }
                 }
@@ -105,6 +105,111 @@ namespace DataExpressWeb
             Peditar.Visible = false;
             idres = "";
             Response.Redirect("~/menuReceDHL/proveedoresDhl.aspx");
+        }
+
+        protected void Agregar_Click(object sender, EventArgs e)
+        {
+            var x = AgregarLista.SelectedValue;
+
+            BD.Conectar();
+            BD.CrearComando("select * from tipoProveedor where nombre=@x");
+            BD.AsignarParametroCadena("@x", x);
+            DbDataReader DR = BD.EjecutarConsulta();
+            if (DR.Read())
+            {
+                var id = DR[0].ToString();
+                DR.Close();
+                bool ban = false;
+                foreach (GridViewRow row in GridView1.Rows)
+                {
+                    CheckBox chk_Seleccionar = (CheckBox)row.FindControl("check");
+                    HiddenField hd_Seleccionafol = (HiddenField)row.FindControl("checkFol");
+                    idres = hd_Seleccionafol.Value;
+                    BD.CrearComando("select * from TiposProveedor where idProv=@idp and idTipo=@x");
+                    BD.AsignarParametroCadena("@idp", idres);
+                    BD.AsignarParametroCadena("@x", id);
+                    DbDataReader query = BD.EjecutarConsulta();
+                    int rowCount = 0;
+                    while (query.Read())
+                    {
+                        rowCount++;
+                    }
+                    if (rowCount>0)
+                    {
+                        ban = false;
+                    }
+                    else
+                    {
+                        ban = true;
+                    }
+                    query.Close();
+                }
+                if (ban == true)
+                {
+                    BD.CrearComando("insert into TiposProveedor (idProv,idTipo) values (@idp,@x)");
+                    BD.AsignarParametroCadena("@idp", idres);
+                    BD.AsignarParametroCadena("@x", id);
+                    DbDataReader query = BD.EjecutarConsulta();
+                }
+                else
+                {
+                    prueba.Text = "Ya existe";
+                }
+            }
+            BD.Desconectar();
+            prueba.Visible = true;
+        }
+
+        protected void CerrarLista_Click(object sender, EventArgs e)
+        {
+            lista.Visible = false;
+            Response.Redirect("~/menuReceDHL/proveedoresDhl.aspx");
+        }
+
+        protected void AddTipo_Click(object sender, EventArgs e)
+        {
+            bool si = false;
+            foreach (GridViewRow row in GridView1.Rows)
+            {
+                CheckBox chk_Seleccionar = (CheckBox)row.FindControl("check");
+                if (chk_Seleccionar.Checked)
+                { si = true; }
+            }
+
+            if (si == true)
+            {
+                foreach (GridViewRow row in GridView1.Rows)
+                {
+                    CheckBox chk_Seleccionar = (CheckBox)row.FindControl("check");
+                    HiddenField hd_Seleccionafol = (HiddenField)row.FindControl("checkFol");
+                    if (chk_Seleccionar.Checked)
+                    {
+                        string pr = "";
+                        idres = hd_Seleccionafol.Value;
+                        BD.Conectar();
+                        BD.CrearComando("select * from TiposProveedor where idProv=@idp");
+                        BD.AsignarParametroCadena("@idp", idres);
+                        DbDataReader DR = BD.EjecutarConsulta();
+                        if (DR.Read())
+                        {
+                            //prueba.Text = DR[2].ToString();
+                        }
+                        BD.Desconectar();
+                        SqlDatapr.DataBind();
+
+                        Peditar.Visible = false;
+                        lista.Width = 400;
+                        lista.Height = 300;
+                        lista.Visible = true;
+                    }
+                }
+            }
+            else
+            {
+                Session["estNot"] = false;
+                Session["msjNoti"] = "DEBES SELECIONAR UN PROVEEDOR";
+                Session["estPan"] = true;
+            }
         }
 
         protected void Button8_Click(object sender, EventArgs e)

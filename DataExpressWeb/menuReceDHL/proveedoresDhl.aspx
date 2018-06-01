@@ -58,7 +58,7 @@
                 color: #ffcc00;
             }
 
-        #bus10 {
+        #bus10,#bus15 {
             position: absolute;
             left: 750px;
             top: 162px;
@@ -223,12 +223,29 @@
 
         <tr>
             <td>
+                <span id="bus15">
+                    <center style="height: 39px; width: 108px">
+                        <asp:Panel CssClass="panelWrapper" ID="lista" runat="server" ScrollBars="Auto" Height="39px" Width="77px" Visible="false">
+                            <asp:Panel CssClass="panelHeader" ID="header" runat="server">Lista de Tipos de Proveedor</asp:Panel>
+                            <asp:Panel CssClass="panelBodyWrapper" ID="Bodylista" runat="server" Height="220px" Width="374px">
+                                <table>
+                                    <tr>
+                                        <td><asp:DropDownList CssClass="textboxForm" ID="AgregarLista" runat="server" DataSourceID="SqlDatapr" DataTextField="nombre" DataValueField="nombre"></asp:DropDownList></td>
+                                        <td><asp:Button ID="agregar" OnClick="Agregar_Click" runat="server" Text="Agregar Tipo"/> </td>
+                                    </tr>
+                                </table>
+                                <asp:Label ID="prueba" runat="server" Visible="false"></asp:Label>
+                            </asp:Panel>
+                            <asp:Button CssClass="botonForm" ID="ListaClose" runat="server"  Text="Cerrar" onclick="CerrarLista_Click" />
+                        </asp:Panel>
+                        </center>
+                    </span>
                 <span id="bus10">
                     <center style="height: 39px; width: 108px">
                                    <asp:Panel CssClass="panelWrapper" ID="Peditar" runat="server" ScrollBars="Auto" 
                                         Height="39px" Width="77px" Visible="false">
         <asp:Panel CssClass="panelHeader" ID="Panel12" runat="server">Editando Proveedor</asp:Panel>
-            <asp:Panel CssClass="panelBodyWrapper" ID="Panel13" runat="server" Height="290px" Width="374px">
+            <asp:Panel CssClass="panelBodyWrapper" ID="Panel13" runat="server" Height="330px" Width="374px">
                 <table class="formEditar">
                     <tr>
                         <td>
@@ -295,6 +312,12 @@
                            <asp:DropDownList CssClass="textboxForm" ID="Droptip" runat="server" 
                                 DataSourceID="SqlDatapr" DataTextField="nombre" DataValueField="nombre">
                                 </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tipo Adicional:</td>
+                        <td>
+                            <asp:Button ID="ShowLista" runat="server" Text="Editar" OnClick="AddTipo_Click" />
                         </td>
                     </tr>
                 </table>
